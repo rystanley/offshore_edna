@@ -129,14 +129,26 @@ hydros2 <- edna_set_info%>%filter(!grepl("LAB",eDNA_Sample_Name),
 
 setdiff(hydros2,unique(sets_fix$HYDRO)) #confirm two remaining as orphans
 
-#based on a review of the database Mike McMahon was able to identify that 474524 was from set 201 - refer to Orphaned_Hydro_Information.docx in HES_MPAGroup/Data/eDNA folder
-edna_set_info <- edna_set_info%>%mutate(Set = ifelse(HYDRO == 474254,201,Set))
+#fix orphan hydro 474254
+    #based on a review of the database Mike McMahon was able to identify that 474524 was from set 201 - refer to Orphaned_Hydro_Information.docx in HES_MPAGroup/Data/eDNA folder
+    edna_set_info <- edna_set_info%>%mutate(Set = ifelse(HYDRO == 474254,201,Set))
+    
+    sets_fix%>%filter(SETNO == 201) # for some reason 201 is not in the dataset provided post-survey
+    
+    #Note that 201 is not associated with any trawl so this is a dude anyway 
 
-sets_fix%>%filter(SETNO == 201) # for some reason 201 is not in the dataset provided post-survey
+#fix orphan hydro 478989
+    #based on a similar review there is a strong potential for the remaining orphan to be part of set 116 based on the sequence of numbers. Now this is still an assumption so this data SETNO 116
+    #should be viewed with caution in the comparative analysis until this is confirmed with Jaimie Emberly who is back in October
+    
+    edna_set_info <- edna_set_info%>%mutate(Set = ifelse(HYDRO == 478989,116,Set))
+    
+    sets_fix%>%filter(SETNO == 116) #The value set here is 99999 which would seem like an error in the database corresponding to why the hydro isn't in this data. 
+    
+    sets_fix <- sets_fix%>%mutate(HYDRO = ifelse(SETNO == 116,478989,HYDRO))
 
 #Now merge sets_fix into edna_set_info so that the total set list will match up
 #first check that for the sets that were recorded from the samples match up with the sets and corresponding hydros from the post-survey data
-
 
   #track load the RV trawl data and match to the sets this will have two orphaned sets
   sets <- sets_fix%>%
@@ -162,6 +174,7 @@ sets_fix%>%filter(SETNO == 201) # for some reason 201 is not in the dataset prov
     set_check1[!set_check1$SurveyID == set_check2$HYDRO,]
     set_check2[!set_check1$SurveyID == set_check2$HYDRO,]
 
+#Merge the datasets 
 merged_master <- edna_set_info%>%
                  filter(!grepl("Blank",HYDRO))%>% #filter out the blank ids
                  mutate(HYDRO = as.numeric(HYDRO))%>%
@@ -172,18 +185,22 @@ merged_master <- edna_set_info%>%
                   mutate(SETNO = ifelse(HYDRO == 474254,201,SETNO)) #this is the sub we did earlier
     
 #quick check to see if the sets match. Should == 0
-sum(!merged_master[!is.na(merged_master$Set),"Set"] == merged_master[!is.na(merged_master$Set),"SETNO"])
+sum(!merged_master[!is.na(merged_master$Set),"Set"] == merged_master[!is.na(merged_master$Set),"SETNO"]) #should be 0
 
-sum(is.na(merged_master$SETNO)) #should equal one for the one orphaned set that does not appear to be sampled with any actual trawl
+sum(is.na(merged_master$SETNO)) #should be 0
 
-#filter the RV data          
-edna_data <- rvdat%>%
+#Now match these samples to the RV data         
+trawl_edna_data <- rvdat%>%
   mutate(year=year(SDATE),
          month=month(SDATE))%>%
-  filter(year==2020,
-         month %in% c(7,8), #just the summer survey
-         SETNO %in% sets)%>%
+  filter(SETNO %in% merged_master$SETNO)%>%
   st_as_sf(coords=c("LONGITUDE","LATITUDE"),crs=latlong)
+
+setdiff(unique(trawl_edna_data$SETNO)%>%sort(),merged_master$SETNO%>%sort())
+setdiff(merged_master$SETNO%>%sort(),unique(trawl_edna_data$SETNO)%>%sort()) #this is because 201 doesn't appear to have a trawl but an eDNA sample was still taken
+
+
+
 
 #Trawls without eDNA
 null_sets <- rvdat%>%
