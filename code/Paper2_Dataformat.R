@@ -189,6 +189,15 @@ sum(!merged_master[!is.na(merged_master$Set),"Set"] == merged_master[!is.na(merg
 
 sum(is.na(merged_master$SETNO)) #should be 0
 
+
+##NEXT STEPS 
+#CREATE A MASTER DATA OBJECT THAT HAS A STATION id (NEED TO MAKE THIS UP) AND PULLS THE COORDINATES FROM THE rv SURVEY FOR OVERLAY ON THE NETWORK AND THE BIOCLASSIFICATION
+
+#THE DATA FORMAT THAT XP WANTS ROWS AND COLS SPECIES BY SITES
+
+
+
+
 #Now match these samples to the RV data         
 trawl_edna_data <- rvdat%>%
   mutate(year=year(SDATE),
