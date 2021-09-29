@@ -1,10 +1,19 @@
-#load libraries
+#Code for formatting the RV data for comparison to the eDNA
+
+#load libraries ----------
 library(sf)
 library(ggplot2)
 library(dplyr)
+library(tidyr)
 library(rnaturalearth)
 library(rnaturalearthhires)
 library(lubridate)
+library(taxize)
+library(pbapply)
+library(gsubfn)
+
+#load functions -----------
+source("code/ClassifyFunction.R")
 
 #Load projections
 latlong <- "+proj=longlat +datum=NAD83 +no_defs +ellps=GRS80 +towgs84=0,0,0"
@@ -93,7 +102,7 @@ basemap_atlantic <- rbind(ne_states(country = "Canada",returnclass = "sf")%>%
 load("R:/Science/CESD/HES_MPAGroup/Data/RVdata/RVlinked.RData")
 rvdat_all <- rvdat
 
-rvdat <- rvdat%>%
+rvdat <- rvdat_all%>%
           mutate(year=year(SDATE))%>%
           filter(year==2020, #filter to just the year of the mission
                  MISSION.GSCAT == "NED2020025")
@@ -189,33 +198,105 @@ sum(!merged_master[!is.na(merged_master$Set),"Set"] == merged_master[!is.na(merg
 
 sum(is.na(merged_master$SETNO)) #should be 0
 
-
-##NEXT STEPS 
-#CREATE A MASTER DATA OBJECT THAT HAS A STATION id (NEED TO MAKE THIS UP) AND PULLS THE COORDINATES FROM THE rv SURVEY FOR OVERLAY ON THE NETWORK AND THE BIOCLASSIFICATION
-
-#THE DATA FORMAT THAT XP WANTS ROWS AND COLS SPECIES BY SITES
+merged_master[merged_master$SurveyID != merged_master$HYDRO,] #just the typo that we fixed above
 
 
+#make a clean file and do an intersect with other data for things like depth and where the sites are
+
+#Data you want from the rv_survey
+rvdat <- rvdat%>% mutate(year=year(SDATE),
+                         month=month(SDATE),
+                         day=day(SDATE))
+
+rv_names <- c("SETNO","year","month","day","TIME","DEPTH","DIST","LONGITUDE","LATITUDE","STRAT","STATION", #note did a check with the stations that were written down for processing and they match the RV set
+              "BOTTOM_TEMPERATURE","BOTTOM_SALINITY","SURFACE_TEMPERATURE")
+
+merged_df <- merged_master%>%
+             left_join(.,rvdat%>%dplyr::select(all_of(rv_names))%>%distinct(SETNO,.keep_all=TRUE))%>%
+             dplyr::select(-c(Set, SurveyID,Station,Date_Collected))%>%
+             rename(edna_sample_num = Sample.)%>%
+             rename_all(tolower)%>% #make them all lowercase to make it easier to code
+             filter(setno != 201)%>% #there is no coordinates in the db for this one nor is there any catch anyway. Need to check with Jamie to figure this one out
+             st_as_sf(coords=c("longitude","latitude"),crs=latlong,remove=FALSE)%>%
+             st_join(.,bioclass%>%dplyr::select(name)%>%rename(bioclass=name),join=st_intersects)%>%
+             st_join(.,maritimes_network%>%dplyr::select(NAME)%>%rename(network=NAME),join=st_intersects)%>%
+             mutate(network=ifelse(is.na(network),"Outside",network),
+                    nearest_site = network, #these are placeholders for the for loop that evaluates site by site what the nearest network site is, if it was not direclty in a site
+                    nearest_site_distance = 0)
+
+#key in the sites that are in very close proximity to MPAs
+sites_outside <- which(merged_df$network == "Outside")
+
+for(i in sites_outside){
+  
+  temp <- merged_df[i,] #just sites that are 'outside' existing sites within the proposed network
+  distance_network <- as.numeric(st_distance(temp,maritimes_network)/1000)#distance in km from all sites in the network
+  
+  #fill in the dataframe
+  merged_df[i,"nearest_site"] = maritimes_network[which.min(distance_network),]%>%pull(NAME) #name of the closest site
+  merged_df[i,"nearest_site_distance"] = distance_network[which.min(distance_network)] #distance to the closest site
+  
+  
+}
+
+output_merged <- merged_df%>%data.frame()%>%dplyr::select(-geometry)
+
+#Save the csv that matches the stations             
+write.csv(output_merged,"data/merged_edna_samples.csv",row.names=FALSE)
+
+##Create map of sites
+ggplot()+
+  geom_sf(data=bioreg,fill=NA)+
+  geom_sf(data=bioclass,aes(fill=name))+
+  geom_sf(data=maritimes_network,fill="grey50",alpha=0.5)+
+  geom_sf(data=merged_df)+
+  theme_bw()+
+  labs(fill="Bioclassification")+
+  theme(legend.position="bottom")
+
+### Do the taxonomic classifications -------
+
+#key out what was ID in the RV survey for which we have a paired eDNA sample 
+
+id_names <- rvdat%>%
+              filter(SETNO %in% merged_df$setno)%>%
+              distinct(SPEC.GSSPECIES,.keep_all=TRUE)%>%
+              dplyr::select(SPEC.GSSPECIES,COMM)%>%
+              mutate(latin = SPEC.GSSPECIES, #clean up the names for entry into various online taxonomic databases via APIs and the taxise package.#basic data cleaning
+                     latin = gsub("SPP.","G.",latin,fixed=T),#this specifies that these are to the genus level
+                     latin = gsub("SP.","G.",latin,fixed=T), 
+                     latin = gsub(" SP","G.",latin,fixed=T),
+                     latin = gsub("S.P.","G.",latin,fixed=T),
+                     latin = gsub("S.C.","",latin,fixed=T), #Not sure what is meant here (superclass?) but we can ID based on the db's to class. 
+                     
+                     latin = gsub("COLUS G.","BUCCINIDAE F.",latin), #COLUS SP are a genus of Buccinidae but this doesn't return anything in itis. This (like Hayus) will have to modified after to add the family name.
+                     latin = gsub("HYAS G.","OREGONIIDAE F.",latin),#these are specified as toad crabs (genus hyas)# this will fix the gsub error caused by the first hyas sub but for some reason the online db's return plants. Have to add 'hyas' to the tax id manually
+                     
+                     latin = gsub("OREGONIIDAE F. ARANEUS","HYAS ARANEUS",latin),# this will fix the gsub error caused by the first hyas sub
+                     latin = gsub("OREGONIIDAE F. COARCTATUS","HYAS COARCTATUS",latin),# this will fix the gsub error caused by the first hyas sub
+                     latin = gsub("PENNATULACEA","PENNATULACEA O.",latin), #this will specify that this is to the order level. 
+                     latin = gsub("OPHIUROIDEA","OPHIUROIDEA C.",latin), #this will specify that this is to the order level. 
+                     latin = gsub("GORGONOCEPHALIDAE,ASTERONYCHIDAE F.","PHRYNOPHIURIDA O.",latin), #there are two families grouped for basket stars, so we will go up one taxonomic level to order Phrynophiurida 
+                     latin = ifelse(grepl("GEPHYREA",latin),"SIPUNCULA P.",latin), #Gephyrea is a former taxon group which now is split into three phyla including sipuncula. This is a worm
+                     
+                     latin = trimws(latin))%>% #get rid of trailing whitespace
+  
+              filter(!grepl("eggs",tolower(latin)),# we have skate, whelk and snail/slug eggs - these are removed. 
+                      latin != "ORGANIC DEBRIS", #remove
+                      latin != "UNIDENTIFIED", #remove
+                      latin != "ASCOPHYLLUM NODOSUM", #remove - seaweed would just be captured on the upcast since the depths are much deeper than any marine algae/plants would be expected from
+                      latin !="STONES AND ROCKS", #remove
+                     #!grepl("worm",tolower(latin)), #need to decide whether to remove these -- aslo would remove SIPUNCULA P. 
+                     )%>%
+                mutate(latin=tolower(latin))
+
+write.csv(id_names,"data/rv_identified.csv",row.names=FALSE)
+
+#List of things not applicable to the analysis (taken by hand when viewed in excel using data/rv_identified.csv).Names are also cleaned up a bit here
+
+outlist <- pblapply(id_names$latin,FUN=Classify)
+taxInfo <- do.call("rbind", outlist)
+
+Nymphonidae
 
 
-#Now match these samples to the RV data         
-trawl_edna_data <- rvdat%>%
-  mutate(year=year(SDATE),
-         month=month(SDATE))%>%
-  filter(SETNO %in% merged_master$SETNO)%>%
-  st_as_sf(coords=c("LONGITUDE","LATITUDE"),crs=latlong)
-
-setdiff(unique(trawl_edna_data$SETNO)%>%sort(),merged_master$SETNO%>%sort())
-setdiff(merged_master$SETNO%>%sort(),unique(trawl_edna_data$SETNO)%>%sort()) #this is because 201 doesn't appear to have a trawl but an eDNA sample was still taken
-
-
-
-
-#Trawls without eDNA
-null_sets <- rvdat%>%
-  mutate(year=year(SDATE),
-         month=month(SDATE))%>%
-  filter(year==2020,
-         month %in% c(7,8), #just the summer survey
-         !SETNO %in% sets)%>%
-  st_as_sf(coords=c("LONGITUDE","LATITUDE"),crs=latlong)
