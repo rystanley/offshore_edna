@@ -26,7 +26,7 @@ utmkm <- "+proj=utm +zone=20 +datum=NAD83 +units=km +no_defs +ellps=GRS80 +towgs
 # rvdat <- summarize_catches()
 
 #Basemaps
-bioregion <- read_sf("R:/Science/CESD/HES_MPAGroup/Data/Shapefiles/MaritimesPlanningArea.shp")%>%
+bioregion <- read_sf("data/Shapefiles/MaritimesPlanningArea.shp")%>%
   st_transform(latlong)
 
 #bounding box for the bioregion
@@ -42,8 +42,8 @@ plotlims <- bioregion%>%
   st_transform(latlong)%>%
   st_bbox()
 
-#maritimes network
-maritimes_network <- read_sf("R:/Science/CESD/HES_MPAGroup/Data/Shapefiles/Maritimes_Draft_Network/networksites_proposed_OEM_MPA_v2.shp")%>%
+#maritimes network -- note that this cannot be shared or made available online to the public
+maritimes_network <- read_sf("data/Shapefiles/networksites_proposed_OEM_MPA_v2.shp")%>%
   st_transform(latlong)%>%
   mutate(status=STATUS,
          status=ifelse(status=="Existing",status,
@@ -51,13 +51,13 @@ maritimes_network <- read_sf("R:/Science/CESD/HES_MPAGroup/Data/Shapefiles/Marit
          status=factor(status,levels=c("Existing","AOI","Proposed")))
 
 #bioclassification polygons
-bioclass <- read_sf("R:/Science/CESD/HES_MPAGroup/Data/Shapefiles/MaritimesBioclassificationPolygons.shp")%>%
+bioclass <- read_sf("data/Shapefiles/MaritimesBioclassificationPolygons.shp")%>%
   st_transform(latlong)%>%
   data.frame()%>%
   st_as_sf(crs=latlong)
 
 #Shelfbreak contour
-# GEBCO <- raster("c:/Users/stanleyr/Documents/Github/CanadaMPAs/data/Bathymetry/GEBCO/gebco_2019_Canada.tif")
+# GEBCO <- raster("c:/Users/stanleyr/Documents/Github/CanadaMPAs/data/Bathymetry/GEBCO/gebco_2019_Canada.tif") #too big for github
 # 
 # bathy <- crop(GEBCO,as_Spatial(bioregion_box%>%st_transform(proj4string(GEBCO))))
 # bathy[bathy>2] <- NA
@@ -68,9 +68,9 @@ bioclass <- read_sf("R:/Science/CESD/HES_MPAGroup/Data/Shapefiles/MaritimesBiocl
 #   st_as_sf(as_points = FALSE, merge = TRUE)%>%
 #   st_transform(latlong)
 
-#st_write(shelfbreak,"R:/Science/CESD/HES_MPAGroup/Data/Bathymetry/Countour_250.shp")
+#st_write(shelfbreak,"data/Countour_250.shp")
 
-shelfbreak=read_sf("R:/Science/CESD/HES_MPAGroup/Data/Bathymetry/Countour_250.shp")
+shelfbreak=read_sf("data/Countour_250.shp")
 
 #Create basemap intersected with the bounding box. 
 basemap_atlantic <- rbind(ne_states(country = "Canada",returnclass = "sf")%>%
@@ -106,10 +106,14 @@ basemap_atlantic <- rbind(ne_states(country = "Canada",returnclass = "sf")%>%
 # Mar.datawrangling::get_data_custom(schema= "GROUNDFISH", data.dir = "R:/Science/CESD/HES_MPAGroup/Data/RVdata", 
 #                                    tables = c("GSSPECIES_CODES"), usepkg = "rodbc", fn.oracle.username = un", 
 #                                    fn.oracle.password = pw, fn.oracle.dsn = "PTRAN")
+# rvdat <- rvdat%>%
+#   mutate(year=year(SDATE))%>%
+#   filter(year==2020, #filter to just the year of the mission
+#          MISSION.GSCAT == "NED2020025")
 
-# save(x=rvdat,file="R:/Science/CESD/HES_MPAGroup/Data/RVdata/RVlinked.RData")
-load("R:/Science/CESD/HES_MPAGroup/Data/RVdata/RVlinked.RData")
-load("R:/Science/CESD/HES_MPAGroup/Data/RVdata/GROUNDFISH.GSSPECIES_CODES.RData")
+# save(x=rvdat,file="data/RVlinked.RData")
+load("data/RVlinked.RData")
+load("data/GROUNDFISH.GSSPECIES_CODES.RData")
 spec_tax <- GSSPECIES_CODES
 rm(GSSPECIES_CODES)
 
@@ -130,7 +134,7 @@ hydros <- edna_set_info%>%filter(!grepl("LAB",eDNA_Sample_Name),
                   pull(SurveyID)%>%as.numeric()
 
 #this is the data from the RV survey that was provided post-survey. The 'HYDRO' here is the bottom water sample that corresponds to that set
-sets_fix <- read.csv("R:/Science/CESD/HES_MPAGroup/Data/eDNA/eDNA_Trawl_Catch.csv") 
+sets_fix <- read.csv("data/eDNA/eDNA_Trawl_Catch.csv") 
 
 
 #these are 'orphaned' eDNA samples that don't correspond to a trawl set based on the Hydro (SampleID) recorded on the bottle for the data provided post-survey
@@ -258,14 +262,16 @@ output_merged <- merged_df%>%data.frame()%>%dplyr::select(-geometry)
 write.csv(output_merged,"data/merged_edna_samples.csv",row.names=FALSE)
 
 ##Create map of sites
-ggplot()+
+p1 <- ggplot()+
   geom_sf(data=bioreg,fill=NA)+
   geom_sf(data=bioclass,aes(fill=name))+
   geom_sf(data=maritimes_network,fill="grey50",alpha=0.5)+
   geom_sf(data=merged_df)+
   theme_bw()+
-  labs(fill="Bioclassification")+
-  theme(legend.position="bottom")
+  labs(fill="")+
+  theme(legend.position="bottom");p1
+
+ggsave("inst/2020_edna_survey.png",p1,width=6,height=6,units="in",dpi=300)
 
 ### Do the taxonomic classifications -------
 
