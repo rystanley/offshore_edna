@@ -1,300 +1,300 @@
-"call","kingdom","subkingdom","infrakingdom","phylum","subphylum","infraphylum","superclass","class","superorder","order","family","subfamily","genus","species","TSN","db"
-"Acartia longiremis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Acartiidae",NA,"Acartia","Acartia longiremis","86087","itis"
-"Agonidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Agonidae",NA,NA,NA,"167426","itis"
-"Alosa pseudoharengus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Clupeomorpha","Clupeiformes","Clupeidae","Alosinae","Alosa","Alosa pseudoharengus","161706","itis"
-"Amblyraja radiata","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Amblyraja","Amblyraja radiata","564149","itis"
-"Ameira scotti","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Podoplea","Harpacticoida","Ameiridae",NA,"Ameira","Ameira scotti","206084","itis"
-"Ammodytes","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes",NA,"171671","itis"
-"Ammodytes americanus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes","Ammodytes americanus","171673","itis"
-"Ammodytes dubius","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes","Ammodytes dubius","171674","itis"
-"Ammodytes personatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes","Ammodytes personatus","630414","itis"
-"Ammodytes tobianus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes","Ammodytes tobianus","171676","itis"
-"Amphiascopsis cinctus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Podoplea","Harpacticoida","Diosaccidae",NA,"Amphiascopsis","Amphiascopsis cinctus","87769","itis"
-"Amphitrite figulus","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Terebellidae",NA,"Amphitrite","Amphitrite figulus","67905","itis"
-"Anarhichas","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Anarhichadidae",NA,"Anarhichas",NA,"171336","itis"
-"Anatidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Aves",NA,"Anseriformes","Anatidae",NA,NA,NA,"174983","itis"
-"Anisarchus medius","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Stichaeidae",NA,"Anisarchus","Anisarchus medius","171620","itis"
-"Annelida","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"64357","itis"
-"Anobothrus gracilis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Ampharetidae",NA,"Anobothrus","Anobothrus gracilis","67778","itis"
-"Aphrodita hastata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Aphroditidae",NA,"Aphrodita","Aphrodita hastata","64365","itis"
-"Arctica islandica","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Veneroida","Arcticidae",NA,"Arctica","Arctica islandica","81343","itis"
-"Arctozenus risso","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Cyclosquamata","Aulopiformes","Paralepididae",NA,"Arctozenus","Arctozenus risso","644687","itis"
-"Argentina silus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Protacanthopterygii","Osmeriformes","Argentinidae",NA,"Argentina","Argentina silus","162064","itis"
-"Aricidea","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Paraonidae",NA,"Aricidea",NA,"66666","itis"
-"Artacama proboscidea","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Terebellidae",NA,"Artacama","Artacama proboscidea","67987","itis"
-"Asterias rubens","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Forcipulatacea","Forcipulatida","Asteriidae",NA,"Asterias","Asterias rubens","157220","itis"
-"Aurelia","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Scyphozoa",NA,"Semaeostomeae","Ulmaridae","Aureliinae","Aurelia",NA,"51700","itis"
-"Aurelia aurita","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Scyphozoa",NA,"Semaeostomeae","Ulmaridae","Aureliinae","Aurelia","Aurelia aurita","51701","itis"
-"Aves","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Aves",NA,NA,NA,NA,NA,NA,"174371","itis"
-"Balaenoptera acutorostrata","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Balaenopteridae",NA,"Balaenoptera","Balaenoptera acutorostrata","180524","itis"
-"Balaenoptera musculus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Balaenopteridae",NA,"Balaenoptera","Balaenoptera musculus","180528","itis"
-"Balaenoptera physalus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Balaenopteridae",NA,"Balaenoptera","Balaenoptera physalus","180527","itis"
-"Balanidae","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Thoracica","Sessilia","Balanidae",NA,NA,NA,"89599","itis"
-"Balanus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Thoracica","Sessilia","Balanidae",NA,"Balanus",NA,"89600","itis"
-"Balanus crenatus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Thoracica","Sessilia","Balanidae",NA,"Balanus","Balanus crenatus","89606","itis"
-"Bathycalanus princeps","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Megacalanidae",NA,"Bathycalanus","Bathycalanus princeps","205900","itis"
-"Bathypolypus arcticus","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Cephalopoda","Octobrachia","Octopoda","Octopodidae","Bathypolypodinae","Bathypolypus","Bathypolypus arcticus","82636","itis"
-"Benthosema glaciale","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Scopelomorpha","Myctophiformes","Myctophidae","Myctophinae","Benthosema","Benthosema glaciale","162680","itis"
-"Bos taurus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Artiodactyla","Bovidae","Bovinae","Bos","Bos taurus","183838","itis"
-"Bougainvillia muscus","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Bougainvilliidae",NA,"Bougainvillia","Bougainvillia muscus","48800","itis"
-"Brada villosa","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Flabelligeridae",NA,"Brada","Brada villosa","67227","itis"
-"Brisaster fragilis","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Echinoidea","Atelostomata","Spatangoida","Schizasteridae",NA,"Brisaster","Brisaster fragilis","158080","itis"
-"Brosme brosme","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Lotinae","Brosme","Brosme brosme","164740","itis"
-"Calanus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Calanidae",NA,"Calanus",NA,"85263","itis"
-"Calanus finmarchicus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Calanidae",NA,"Calanus","Calanus finmarchicus","85272","itis"
-"Calanus hyperboreus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Calanidae",NA,"Calanus","Calanus hyperboreus","85266","itis"
-"Cancer borealis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Decapoda","Cancridae",NA,"Cancer","Cancer borealis","98678","itis"
-"Canis lupus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Carnivora","Canidae",NA,"Canis","Canis lupus","180596","itis"
-"Caridion gordoni","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Decapoda","Hippolytidae",NA,"Caridion","Caridion gordoni","96886","itis"
-"Catablema multicirratum","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Pandeidae",NA,"Catablema","Catablema multicirratum","49175","itis"
-"Catablema vesicarium","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Pandeidae",NA,"Catablema","Catablema vesicarium","49173","itis"
-"Centropages hamatus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Centropagidae",NA,"Centropages","Centropages hamatus","85766","itis"
-"Centropages typicus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Centropagidae",NA,"Centropages","Centropages typicus","85767","itis"
-"Centroscyllium fabricii","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Squaliformes","Etmopteridae",NA,"Centroscyllium","Centroscyllium fabricii","160703","itis"
-"Cephalothrix filiformis","Animalia","Bilateria","Protostomia","Nemertea",NA,NA,NA,"Anopla",NA,"Paleonemertea","Cephalothricidae",NA,"Procephalothrix","Procephalothrix filiformis","204261","itis"
-"Ceratocephale loveni","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Nereididae",NA,"Ceratocephale","Ceratocephale loveni","65956","itis"
-"Ceriantheopsis americana","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Ceriantharia","Cerianthidae",NA,"Ceriantheopsis","Ceriantheopsis americana","51991","itis"
-"Cetorhinus maximus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Lamniformes","Cetorhinidae",NA,"Cetorhinus","Cetorhinus maximus","159907","itis"
-"Chaetognatha","Animalia","Bilateria","Protostomia","Chaetognatha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"158650","itis"
-"Chaetozone","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Cirratulidae",NA,"Chaetozone",NA,"67156","itis"
-"Cheliplanilla caudata","Animalia","Bilateria","Protostomia","Platyhelminthes","Rhabditophora",NA,NA,"Trepaxonemata",NA,"Neoophora","Cheliplanidae",NA,"Cheliplanilla","Cheliplanilla caudata","1039283","itis"
-"Chlamys islandica","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Ostreoida","Pectinidae",NA,"Chlamys","Chlamys islandica","79619","itis"
-"Chone infundibuliformis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Sabellidae",NA,"Chone","Chone infundibuliformis","68079","itis"
-"Citharichthys arctifrons","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Paralichthyidae",NA,"Citharichthys","Citharichthys arctifrons","172719","itis"
-"Clausocalanus furcatus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Clausocalanus","Clausocalanus furcatus","85355","itis"
-"Clausocalanus pergens","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Clausocalanus","Clausocalanus pergens","85356","itis"
-"Cliona","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Clionaidae",NA,"Cliona",NA,"48523","itis"
-"Clupea harengus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Clupeomorpha","Clupeiformes","Clupeidae","Clupeinae","Clupea","Clupea harengus","161722","itis"
-"Clytia","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Campanulariidae",NA,"Clytia",NA,"49580","itis"
-"Cnidaria","Animalia","Radiata",NA,"Cnidaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"48738","itis"
-"Creseis virgula","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Gastropoda",NA,"Thecosomata","Cavoliniidae",NA,"Creseis","Creseis virgula","76389","itis"
-"Crustacea","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,NA,NA,NA,NA,NA,NA,NA,"83677","itis"
-"Cryptacanthodes giganteus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Cryptacanthodidae",NA,"Cryptacanthodes","Cryptacanthodes giganteus","171612","itis"
-"Ctenodiscus crispatus","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Valvatacea","Paxillosida","Ctenodiscidae",NA,"Ctenodiscus","Ctenodiscus crispatus","156940","itis"
-"Cucumaria frondosa","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Holothuroidea",NA,"Dendrochirotida","Cucumariidae",NA,"Cucumaria","Cucumaria frondosa","158195","itis"
-"Cyanea","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Scyphozoa",NA,"Semaeostomeae","Cyaneidae",NA,"Cyanea",NA,"51669","itis"
-"Cyclopina gracilis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Podoplea","Cyclopoida","Cyclopinidae",NA,"Cyclopina","Cyclopina gracilis","88865","itis"
-"Cyclothone microdon","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Stenopterygii","Stomiiformes","Gonostomatidae",NA,"Cyclothone","Cyclothone microdon","162170","itis"
-"Cyrtodaria siliqua","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Myoida","Hiatellidae",NA,"Cyrtodaria","Cyrtodaria siliqua","81763","itis"
-"Delphinidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Delphinidae",NA,NA,NA,"180415","itis"
-"Dinophyceae","Chromista","Chromista",NA,NA,NA,NA,NA,"Dinophyceae",NA,NA,NA,NA,NA,NA,"9874","itis"
-"Dipturus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Dipturus",NA,"564033","itis"
-"Dipturus batis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Dipturus","Dipturus batis","564126","itis"
-"Dorvilleidae","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Eunicida","Dorvilleidae",NA,NA,NA,"66478","itis"
-"Echinarachnius parma","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Echinoidea","Gnathostomata","Clypeasteroida","Echinarachniidae",NA,"Echinarachnius","Echinarachnius parma","158016","itis"
-"Echinorhynchus gadi","Animalia","Bilateria","Protostomia","Acanthocephala",NA,NA,NA,"Palaeacanthocephala",NA,"Echinorhynchida","Echinorhynchidae","Echinorhynchinae","Echinorhynchus","Echinorhynchus gadi","64279","itis"
-"Enchelyopus cimbrius","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Phycinae","Enchelyopus","Enchelyopus cimbrius","164748","itis"
-"Enipo torelli","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Polynoidae",NA,"Enipo","Enipo torelli","64718","itis"
-"Ennucula tenuis","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Nuculoida","Nuculidae",NA,"Ennucula","Ennucula tenuis","567536","itis"
-"Equus caballus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Perissodactyla","Equidae",NA,"Equus","Equus caballus","180691","itis"
-"Ericthonius fasciatus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Peracarida","Amphipoda","Ischyroceridae",NA,"Ericthonius","Ericthonius fasciatus","93619","itis"
-"Eubranchus pallidus","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Gastropoda",NA,"Nudibranchia","Eubranchidae",NA,"Eubranchus","Eubranchus pallidus","78605","itis"
-"Eudendrium capillare","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Eudendriidae",NA,"Eudendrium","Eudendrium capillare","49101","itis"
-"Euphausia krohni",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Euphausia krohni","95506","itis"
-"Felis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Carnivora","Felidae","Felinae","Felis",NA,"180586","itis"
-"Flabelligeridae","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Flabelligeridae",NA,NA,NA,"67224","itis"
-"Flustra foliacea","Animalia","Bilateria","Protostomia","Bryozoa",NA,NA,NA,"Gymnolaemata",NA,"Cheilostomata","Flustridae",NA,"Flustra","Flustra foliacea","155886","itis"
-"Gadidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae",NA,NA,NA,"164701","itis"
-"Gadus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Gadinae","Gadus",NA,"164710","itis"
-"Gadus morhua","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Gadinae","Gadus","Gadus morhua","164712","itis"
-"Galathowenia oculata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Oweniidae",NA,"Galathowenia","Galathowenia oculata","67662","itis"
-"Gallus gallus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Aves",NA,"Galliformes","Phasianidae","Phasianinae","Gallus","Gallus gallus","176086","itis"
-"Gastrotricha","Animalia","Bilateria","Protostomia","Gastrotricha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"57597","itis"
-"Gersemia rubiformis","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Alcyonacea","Alcyoniidae",NA,"Gersemia","Gersemia rubiformis","52037","itis"
-"Glycera capitata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Glyceridae",NA,"Glycera","Glycera capitata","66103","itis"
-"Glyptocephalus cynoglossus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Pleuronectinae","Glyptocephalus","Glyptocephalus cynoglossus","172873","itis"
-"Gonactiniidae","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Actiniaria","Gonactiniidae",NA,NA,NA,"52833","itis"
-"Goniada maculata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Goniadidae",NA,"Goniada","Goniada maculata","66140","itis"
-"Gonostoma elongatum","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Stenopterygii","Stomiiformes","Gonostomatidae",NA,"Gonostoma","Gonostoma elongatum","162185","itis"
-"Halichondria panicea","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Halichondrida","Halichondriidae",NA,"Halichondria","Halichondria panicea","48396","itis"
-"Halocyprida","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Ostracoda",NA,"Halocyprida",NA,NA,NA,NA,"609938","itis"
-"Halopsis ocellata","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Mitrocomidae",NA,"Halopsis","Halopsis ocellata","50476","itis"
-"Helicolenus dactylopterus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Helicolenus","Helicolenus dactylopterus","166787","itis"
-"Henricia","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Spinulosacea","Spinulosida","Echinasteridae",NA,"Henricia",NA,"157152","itis"
-"Heteromastus filiformis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Capitellidae",NA,"Heteromastus","Heteromastus filiformis","67420","itis"
-"Hippoglossina oblonga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hippoglossina oblonga","172783","itis"
-"Hippoglossoides","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Hippoglossoidinae","Hippoglossoides",NA,"172874","itis"
-"Hippoglossoides platessoides","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Hippoglossoidinae","Hippoglossoides","Hippoglossoides platessoides","172877","itis"
-"Hippoglossus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Hippoglossinae","Hippoglossus",NA,"172931","itis"
-"Hippoglossus hippoglossus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Hippoglossinae","Hippoglossus","Hippoglossus hippoglossus","172933","itis"
-"Homo sapiens","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Primates","Hominidae","Homininae","Homo","Homo sapiens","180092","itis"
-"Hydractinia","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Hydractiniidae",NA,"Hydractinia",NA,"49359","itis"
-"Hydrozoa","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,NA,NA,NA,NA,NA,"48739","itis"
-"Hymeraphia stellifera","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Poecilosclerida","Raspailiidae","Raspailiinae","Hymeraphia","Hymeraphia stellifera","48148","itis"
-"Illex","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Cephalopoda","Decabrachia","Teuthida","Ommastrephidae","Illicinae","Illex",NA,"82520","itis"
-"Lafoea dumosa","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Lafoeidae",NA,"Lafoea","Lafoea dumosa","49682","itis"
-"Lagenorhynchus acutus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Delphinidae",NA,"Lagenorhynchus","Lagenorhynchus acutus","180443","itis"
-"Lamna nasus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Lamniformes","Lamnidae",NA,"Lamna","Lamna nasus","159911","itis"
-"Lamniformes","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Lamniformes",NA,NA,NA,NA,"159851","itis"
-"Laonice","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Spionida","Spionidae",NA,"Laonice",NA,"66784","itis"
-"Laonice cirrata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Spionida","Spionidae",NA,"Laonice","Laonice cirrata","66785","itis"
-"Laonice sarsi","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Spionida","Spionidae",NA,"Laonice","Laonice sarsi","204499","itis"
-"Leptasterias littoralis","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Forcipulatacea","Forcipulatida","Asteriidae",NA,"Leptasterias","Leptasterias littoralis","157248","itis"
-"Leptasterias polaris","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Forcipulatacea","Forcipulatida","Asteriidae",NA,"Leptasterias","Leptasterias polaris","157240","itis"
-"Leptoclinus maculatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Stichaeidae",NA,"Leptoclinus","Leptoclinus maculatus","171603","itis"
-"Leptothecata","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae",NA,NA,NA,NA,"718926","itis"
-"Lestidiops ringens","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Cyclosquamata","Aulopiformes","Paralepididae",NA,"Lestidiops","Lestidiops ringens","644717","itis"
-"Leuckartiara nobilis","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Pandeidae",NA,"Leuckartiara","Leuckartiara nobilis","49148","itis"
-"Leuckartiara octona","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Pandeidae",NA,"Leuckartiara","Leuckartiara octona","49146","itis"
-"Leucoraja erinacea","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Leucoraja","Leucoraja erinacea","564130","itis"
-"Leucoraja ocellata","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Leucoraja","Leucoraja ocellata","564145","itis"
-"Limacina helicina","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Gastropoda",NA,"Thecosomata","Limacinidae",NA,"Limacina","Limacina helicina","76340","itis"
-"Liparis gibbus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Liparidae",NA,"Liparis","Liparis gibbus","167561","itis"
-"Liparis inquilinus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Liparidae",NA,"Liparis","Liparis inquilinus","167577","itis"
-"Lophius americanus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Lophiiformes","Lophiidae",NA,"Lophius","Lophius americanus","164499","itis"
-"Loxosomella","Animalia","Bilateria","Protostomia","Kamptozoa",NA,NA,NA,"Entoprocta",NA,"Coloniales","Loxosomatidae",NA,"Loxosomella",NA,"708695","itis"
-"Lumpenus lampretaeformis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Stichaeidae",NA,"Lumpenus","Lumpenus lampretaeformis","631023","itis"
-"Lycenchelys kolthoffi","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Zoarcidae",NA,"Lycenchelys","Lycenchelys kolthoffi","165246","itis"
-"Lycodes vahlii","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Zoarcidae",NA,"Lycodes","Lycodes vahlii","165284","itis"
-"Macoma calcarea","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Veneroida","Tellinidae",NA,"Macoma","Macoma calcarea","81035","itis"
-"Malacoraja kreffti","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Malacoraja","Malacoraja kreffti","564228","itis"
-"Maldane sarsi","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Maldanidae",NA,"Maldane","Maldane sarsi","67536","itis"
-"Maxillopoda","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda",NA,NA,NA,NA,NA,NA,"621145","itis"
-"Meganyctiphanes norvegica","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Meganyctiphanes","Meganyctiphanes norvegica","95534","itis"
-"Megaptera novaeangliae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Balaenopteridae",NA,"Megaptera","Megaptera novaeangliae","180530","itis"
-"Melanogrammus aeglefinus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Gadinae","Melanogrammus","Melanogrammus aeglefinus","164744","itis"
-"Melicertum octocostatum","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Melicertidae",NA,"Melicertum","Melicertum octocostatum","50547","itis"
-"Melinna cristata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Ampharetidae",NA,"Melinna","Melinna cristata","67763","itis"
-"Membranipora membranacea","Animalia","Bilateria","Protostomia","Bryozoa",NA,NA,NA,"Gymnolaemata",NA,"Cheilostomata","Membraniporidae",NA,"Membranipora","Membranipora membranacea","155824","itis"
-"Merluccius albidus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Merlucciidae","Merlucciinae","Merluccius","Merluccius albidus","164793","itis"
-"Merluccius bilinearis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Merlucciidae","Merlucciinae","Merluccius","Merluccius bilinearis","164791","itis"
-"Metridia lucens","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Metridinidae",NA,"Metridia","Metridia lucens","85741","itis"
-"Metridium","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Actiniaria","Metridiidae",NA,"Metridium",NA,"52736","itis"
-"Mitrocomella polydiademata","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Mitrocomidae",NA,"Mitrocomella","Mitrocomella polydiademata","50459","itis"
-"Molgula complanata","Animalia","Bilateria","Deuterostomia","Chordata","Urochordata",NA,NA,"Ascidiacea",NA,"Pleurogona","Molgulidae",NA,"Molgula","Molgula complanata","159568","itis"
-"Myoxocephalus octodecemspinosus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Cottidae",NA,"Myoxocephalus","Myoxocephalus octodecemspinosus","167320","itis"
-"Myoxocephalus scorpius","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Cottidae",NA,"Myoxocephalus","Myoxocephalus scorpius","167318","itis"
-"Mytilus edulis","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Mytiloida","Mytilidae",NA,"Mytilus","Mytilus edulis","79454","itis"
-"Myxicola","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Sabellidae",NA,"Myxicola",NA,NA,"itis"
-"Myxicola infundibulum","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Sabellidae",NA,"Myxicola","Myxicola infundibulum","68125","itis"
-"Myxidium","Animalia","Radiata",NA,"Cnidaria","Myxozoa",NA,NA,"Myxosporea",NA,"Bipolarina","Myxidiidae",NA,"Myxidium",NA,NA,"itis"
-"Myxine limosa","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Agnatha",NA,"Myxini",NA,"Myxiniformes","Myxinidae","Myxininae","Myxine","Myxine limosa","622239","itis"
-"Nanomia cara","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Siphonophorae","Agalmatidae",NA,"Nanomia","Nanomia cara","51388","itis"
-"Nematoscelis megalops","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Nematoscelis","Nematoscelis megalops","95542","itis"
-"Neottiura bimaculata","Animalia","Bilateria","Protostomia","Arthropoda","Chelicerata",NA,NA,"Euchelicerata",NA,"Araneae","Theridiidae",NA,"Neottiura","Neottiura bimaculata","862575","itis"
-"Nereis pelagica","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Nereididae",NA,"Nereis","Nereis pelagica","65905","itis"
-"Nezumia bairdii","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Macrouridae","Macrourinae","Nezumia","Nezumia bairdii","165395","itis"
-"Nothria conchylega","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Eunicida","Onuphidae",NA,"Nothria","Nothria conchylega","66190","itis"
-"Notomastus latericeus","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Capitellidae",NA,"Notomastus","Notomastus latericeus",NA,"itis"
-"Notoscopelus elongatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Scopelomorpha","Myctophiformes","Myctophidae","Lampanyctinae","Notoscopelus","Notoscopelus elongatus","162659","itis"
-"Obelia","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Campanulariidae",NA,"Obelia",NA,"49514","itis"
-"Oithona similis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Podoplea","Cyclopoida","Oithonidae",NA,"Oithona","Oithona similis","88805","itis"
-"Oncorhynchus mykiss","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Protacanthopterygii","Salmoniformes","Salmonidae","Salmoninae","Oncorhynchus","Oncorhynchus mykiss","161989","itis"
-"Ophelina acuminata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Opheliidae",NA,"Ophelina","Ophelina acuminata","67391","itis"
-"Ophiopholis aculeata","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Ophiuroidea",NA,"Ophiurida","Ophiactidae",NA,"Ophiopholis","Ophiopholis aculeata","157617","itis"
-"Ophiura","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Ophiuroidea",NA,"Ophiurida","Ophiuridae",NA,"Ophiura",NA,"157411","itis"
-"Ophiuroidea","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Ophiuroidea",NA,NA,NA,NA,NA,NA,"157325","itis"
-"Owenia fusiformis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Oweniidae",NA,"Owenia","Owenia fusiformis","67647","itis"
-"Paracalanidae","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Paracalanidae",NA,NA,NA,"85321","itis"
-"Paracalanus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Paracalanidae",NA,"Paracalanus",NA,"85322","itis"
-"Paraeuchaeta norvegica","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Euchaetidae",NA,"Paraeuchaeta","Paraeuchaeta norvegica","85544","itis"
-"Paramphinome jeffreysii","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Amphinomida","Amphinomidae",NA,"Paramphinome","Paramphinome jeffreysii","65185","itis"
-"Paranerilla limicola","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Nerillidae",NA,"Paranerilla","Paranerilla limicola",NA,"itis"
-"Pectinaria granulata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Pectinariidae",NA,"Pectinaria","Pectinaria granulata","67711","itis"
-"Pennatula aculeata","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Pennatulacea","Pennatulidae",NA,"Pennatula","Pennatula aculeata","52418","itis"
-"Phacellophora camtschatica","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Scyphozoa",NA,"Semaeostomeae","Ulmaridae","Sthenoniinae","Phacellophora","Phacellophora camtschatica","51696","itis"
-"Phascolion strombus","Animalia","Bilateria","Protostomia","Sipuncula",NA,NA,NA,"Sipunculidea",NA,"Golfingiiformes","Phascoliidae",NA,"Phascolion","Phascolion strombus",NA,"itis"
-"Pherusa affinis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Flabelligeridae",NA,"Pherusa","Pherusa affinis","67247","itis"
-"Phocoena phocoena","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Phocoenidae",NA,"Phocoena","Phocoena phocoena","180473","itis"
-"Pholis gunnellus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Pholidae",NA,"Pholis","Pholis gunnellus","171645","itis"
-"Phycis chesteri","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Phycinae","Phycis","Phycis chesteri","164734","itis"
-"Phyllodoce groenlandica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Phyllodoce groenlandica","65233","itis"
-"Pleuromamma borealis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Metridinidae",NA,"Pleuromamma","Pleuromamma borealis","85753","itis"
-"Pleuronectidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae",NA,NA,NA,"172859","itis"
-"Plexauridae","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Alcyonacea","Plexauridae",NA,NA,NA,"52172","itis"
-"Plotocnide borealis","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae",NA,NA,"Plotocnide","Plotocnide borealis","48934","itis"
-"Pollachius virens","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Gadinae","Pollachius","Pollachius virens","164727","itis"
-"Priapulus caudatus","Animalia","Bilateria","Protostomia","Priapulida",NA,NA,NA,NA,NA,NA,"Priapulidae",NA,"Priapulus","Priapulus caudatus","155156","itis"
-"Prionace glauca","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Carcharhiniformes","Carcharhinidae",NA,"Prionace","Prionace glauca","160424","itis"
-"Protomyctophum arcticum","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Scopelomorpha","Myctophiformes","Myctophidae","Myctophinae","Protomyctophum","Protomyctophum arcticum","162689","itis"
-"Protosuberites","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Suberitidae",NA,"Protosuberites",NA,"659298","itis"
-"Pseudocalanus mimus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Pseudocalanus","Pseudocalanus mimus","667023","itis"
-"Pseudocalanus minutus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Pseudocalanus","Pseudocalanus minutus","85371","itis"
-"Pseudocalanus moultoni","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Pseudocalanus","Pseudocalanus moultoni","667024","itis"
-"Pseudocalanus newmani","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Pseudocalanus","Pseudocalanus newmani","202548","itis"
-"Pseudopleuronectes americanus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Pleuronectinae","Pseudopleuronectes","Pseudopleuronectes americanus","172905","itis"
-"Pseudopotamilla reniformis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Pseudopotamilla reniformis","68137","itis"
-"Pseudosuberites","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Suberitidae",NA,"Pseudosuberites",NA,"48502","itis"
-"Psolus phantapus","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Holothuroidea",NA,"Dendrochirotida","Psolidae",NA,"Psolus","Psolus phantapus","158156","itis"
-"Raja radiata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Raja radiata","160876","itis"
-"Rajidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,NA,NA,"160845","itis"
-"Rhizocaulus verticillatus","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Campanulariidae",NA,"Rhizocaulus","Rhizocaulus verticillatus","49667","itis"
-"Sabellides octocirrata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Ampharetidae",NA,"Sabellides","Sabellides octocirrata","67773","itis"
-"Salmo salar","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Protacanthopterygii","Salmoniformes","Salmonidae","Salmoninae","Salmo","Salmo salar","161996","itis"
-"Scaphander punctostriatus","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Gastropoda",NA,"Cephalaspidea","Cylichnidae",NA,"Scaphander","Scaphander punctostriatus","76166","itis"
-"Sciaphilus asperatus","Animalia","Bilateria","Protostomia","Arthropoda","Hexapoda",NA,NA,"Insecta","Holometabola","Coleoptera","Curculionidae",NA,"Sciaphilus","Sciaphilus asperatus","618966","itis"
-"Scoloplos","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Orbiniidae",NA,"Scoloplos",NA,"66594","itis"
-"Scomber scombrus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Scombridae","Scombrinae","Scomber","Scomber scombrus","172414","itis"
-"Scomberesox saurus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Beloniformes","Scomberesocidae",NA,"Scomberesox","Scomberesox saurus","165612","itis"
-"Scophthalmus aquosus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Scophthalmidae",NA,"Scophthalmus","Scophthalmus aquosus","172746","itis"
-"Sebastes","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Sebastes",NA,"166705","itis"
-"Sebastes entomelas","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Sebastes","Sebastes entomelas","166719","itis"
-"Sebastes fasciatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Sebastes","Sebastes fasciatus","166774","itis"
-"Sebastes mentella","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Sebastes","Sebastes mentella","166756","itis"
-"Smittia","Animalia","Bilateria","Protostomia","Arthropoda","Hexapoda",NA,NA,"Insecta","Holometabola","Diptera","Chironomidae","Orthocladiinae","Smittia",NA,"129110","itis"
-"Solaster dawsoni","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Valvatacea","Valvatida","Solasteridae",NA,"Solaster","Solaster dawsoni","157075","itis"
-"Solaster endeca","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Valvatacea","Valvatida","Solasteridae",NA,"Solaster","Solaster endeca","157076","itis"
-"Spionidae","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Spionida","Spionidae",NA,NA,NA,"66781","itis"
-"Squalus acanthias","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Squaliformes","Squalidae",NA,"Squalus","Squalus acanthias","160617","itis"
-"Stenella coeruleoalba","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Delphinidae",NA,"Stenella","Stenella coeruleoalba","180434","itis"
-"Stephanasterias albula","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Forcipulatacea","Forcipulatida","Asteriidae",NA,"Stephanasterias","Stephanasterias albula","157291","itis"
-"Stereobalanus canadensis","Animalia","Bilateria","Deuterostomia","Hemichordata",NA,NA,NA,"Enteropneusta",NA,NA,"Harrimaniidae",NA,"Stereobalanus","Stereobalanus canadensis","158623","itis"
-"Sternaspis scutata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Sternaspidae",NA,"Sternaspis","Sternaspis scutata","67411","itis"
-"Streblosoma","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Thelepodidae",NA,"Streblosoma",NA,NA,"itis"
-"Strongylocentrotus","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Echinoidea","Echinacea","Echinoida","Strongylocentrotidae",NA,"Strongylocentrotus",NA,"157968","itis"
-"Strongylocentrotus droebachiensis","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Echinoidea","Echinacea","Echinoida","Strongylocentrotidae",NA,"Strongylocentrotus","Strongylocentrotus droebachiensis","157969","itis"
-"Suberites","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Suberitidae",NA,"Suberites",NA,"48485","itis"
-"Suberites ficus","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Suberitidae",NA,"Suberites","Suberites ficus","48488","itis"
-"Sus scrofa","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Artiodactyla","Suidae","Suinae","Sus","Sus scrofa","180722","itis"
-"Tautogolabrus adspersus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Labridae",NA,"Tautogolabrus","Tautogolabrus adspersus","170481","itis"
-"Tedania","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Poecilosclerida","Tedaniidae",NA,"Tedania",NA,"48110","itis"
-"Temora longicornis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Temoridae",NA,"Temora","Temora longicornis","85877","itis"
-"Terebellidae","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Terebellidae",NA,NA,NA,"67899","itis"
-"Terebellides","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Trichobranchidae",NA,"Terebellides",NA,"68068","itis"
-"Terebellides californica","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Trichobranchidae",NA,"Terebellides","Terebellides californica",NA,"itis"
-"Thalia democratica","Animalia","Bilateria","Deuterostomia","Chordata","Urochordata",NA,NA,"Thaliacea",NA,"Salpida","Salpidae",NA,"Thalia","Thalia democratica",NA,"itis"
-"Thelepus cincinnatus","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Thelepodidae",NA,"Thelepus","Thelepus cincinnatus","67982","itis"
-"Theridion varians","Animalia","Bilateria","Protostomia","Arthropoda","Chelicerata",NA,NA,"Euchelicerata",NA,"Araneae","Theridiidae",NA,"Theridion","Theridion varians","869177","itis"
-"Thunnus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Scombridae","Scombrinae","Thunnus",NA,"172418","itis"
-"Thunnus thynnus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Scombridae","Scombrinae","Thunnus","Thunnus thynnus","172421","itis"
-"Thysanoessa","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Thysanoessa",NA,"95571","itis"
-"Thysanoessa longicaudata","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Thysanoessa","Thysanoessa longicaudata","95575","itis"
-"Thysanoessa raschii","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Thysanoessa","Thysanoessa raschii","660852","itis"
-"Tiaropsis multicirrata","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Tiaropsidae",NA,"Tiaropsis","Tiaropsis multicirrata","49764","itis"
-"Tomopteris","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Tomopteridae",NA,"Tomopteris",NA,NA,"itis"
-"Triglops murrayi","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Cottidae",NA,"Triglops","Triglops murrayi","167375","itis"
-"Triticella pedicellata","Animalia","Bilateria","Protostomia","Bryozoa",NA,NA,NA,"Gymnolaemata",NA,"Ctenostomata","Triticellidae",NA,"Triticella","Triticella pedicellata","155591","itis"
-"Tubularia indivisa","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Tubulariidae",NA,"Tubularia","Tubularia indivisa","48919","itis"
-"Tursiops truncatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Delphinidae",NA,"Tursiops","Tursiops truncatus","180426","itis"
-"Urophycis chuss","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Phycinae","Urophycis","Urophycis chuss","164730","itis"
-"Urophycis tenuis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Phycinae","Urophycis","Urophycis tenuis","164732","itis"
-"Yoldiella frigida","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Nuculoida","Yoldiidae",NA,"Yoldiella","Yoldiella frigida","79289","itis"
-"Zoarces americanus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Zoarcidae",NA,"Zoarces","Zoarces americanus","630979","itis"
-"Amphicorina ascidicola","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Sabellidae",NA,"Amphicorina","Amphicorina ascidicola","6785213","gbif"
-"Anoecia fulviabdominalis","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Insecta",NA,"Hemiptera","Aphididae",NA,"Anoecia","Anoecia fulviabdominalis","2076113","gbif"
-"Arrenoseius","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Arachnida",NA,"Mesostigmata","Phytoseiidae",NA,"Arrenoseius",NA,"2187630","gbif"
-"Bucculatrix ainsliella","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Insecta",NA,"Lepidoptera","Bucculatricidae",NA,"Bucculatrix","Bucculatrix ainsliella","1751299","gbif"
-"Dermatophagoides","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Arachnida",NA,"Sarcoptiformes","Pyroglyphidae",NA,"Dermatophagoides",NA,"2181957","gbif"
-"Epizoanthus arenaceus","Animalia",NA,NA,"Cnidaria",NA,NA,NA,"Anthozoa",NA,"Zoantharia","Epizoanthidae",NA,"Epizoanthus","Epizoanthus arenaceus","2258049","gbif"
-"Eurypon clavigerum","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Axinellida","Raspailiidae",NA,"Eurypon","Eurypon clavigerum","2243812","gbif"
-"Fulvia mutica","Animalia",NA,NA,"Mollusca",NA,NA,NA,"Bivalvia",NA,"Cardiida","Cardiidae",NA,"Fulvia","Fulvia mutica","5729188","gbif"
-"Halichondria coerulea","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Suberitida","Halichondriidae",NA,"Halichondria","Halichondria coerulea","2249998","gbif"
-"Halocynthia roretzi","Animalia",NA,NA,"Chordata",NA,NA,NA,"Ascidiacea",NA,"Stolidobranchia","Pyuridae",NA,"Halocynthia","Halocynthia roretzi","2331879","gbif"
-"Leaena ebranchiata","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Terebellidae",NA,"Leaena","Leaena ebranchiata","5716210","gbif"
-"Orfelia nemoralis","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Insecta",NA,"Diptera","Keroplatidae",NA,"Orfelia","Orfelia nemoralis","1564638","gbif"
-"Oscarella balibaloi","Animalia",NA,NA,"Porifera",NA,NA,NA,"Homoscleromorpha",NA,"Homosclerophorida","Oscarellidae",NA,"Oscarella","Oscarella balibaloi","5964035","gbif"
-"Oscarella viridis","Animalia",NA,NA,"Porifera",NA,NA,NA,"Homoscleromorpha",NA,"Homosclerophorida","Oscarellidae",NA,"Oscarella","Oscarella viridis","2244601","gbif"
-"Parvicirrus dubius","Animalia",NA,NA,"Nemertea",NA,NA,NA,"Pilidiophora",NA,"Heteronemertea","Lineidae",NA,"Parvicirrus","Parvicirrus dubius","2508702","gbif"
-"Polygordius jouinae","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Polygordiidae",NA,"Polygordius","Polygordius jouinae","4308144","gbif"
-"Polymastia bartletti","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Polymastiida","Polymastiidae",NA,"Polymastia","Polymastia bartletti","2251438","gbif"
-"Polyommatus nivescens","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Insecta",NA,"Lepidoptera","Lycaenidae",NA,"Polyommatus","Polyommatus nivescens","5772702","gbif"
-"Proclea malmgreni","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Terebellidae",NA,"Proclea","Proclea malmgreni","2325218","gbif"
-"Protosuberites denhartogi","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Suberitida","Suberitidae",NA,"Protosuberites","Protosuberites denhartogi","2251308","gbif"
-"Protosuberites mereui","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Suberitida","Suberitidae",NA,"Protosuberites","Protosuberites mereui","9220602","gbif"
-"Scambicornus","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Hexanauplia",NA,"Cyclopoida","Synapticolidae",NA,"Scambicornus",NA,"4322727","gbif"
-"Spiophanes kroyeri","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Spionidae",NA,"Spiophanes","Spiophanes kroyeri","2321061","gbif"
-"Terebellides gracilis","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Trichobranchidae",NA,"Terebellides","Terebellides gracilis","2326251","gbif"
-"Terebellides stroemii","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Trichobranchidae",NA,"Terebellides","Terebellides stroemii","2326250","gbif"
-"Terebellides williamsae","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Trichobranchidae",NA,"Terebellides","Terebellides gracilis","2326251","gbif"
-"Ziminella salmonacea","Animalia",NA,NA,"Mollusca",NA,NA,NA,"Gastropoda",NA,"Nudibranchia","Paracoryphellidae",NA,"Ziminella","Ziminella salmonacea","9575123","gbif"
-"Euclymeninae","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Maldanidae","Euclymeninae",NA,NA,NA,"worms"
+"call","kingdom","subkingdom","infrakingdom","phylum","subphylum","infraphylum","superclass","class","superorder","order","family","subfamily","genus","species","taxID","db","CO1","m18s","m12s","m16s"
+"Acartia longiremis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Acartiidae",NA,"Acartia","Acartia longiremis","86087","itis",TRUE,FALSE,FALSE,FALSE
+"Agonidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Agonidae",NA,NA,NA,"167426","itis",FALSE,FALSE,TRUE,FALSE
+"Alosa pseudoharengus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Clupeomorpha","Clupeiformes","Clupeidae","Alosinae","Alosa","Alosa pseudoharengus","161706","itis",FALSE,FALSE,FALSE,TRUE
+"Amblyraja radiata","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Amblyraja","Amblyraja radiata","564149","itis",TRUE,FALSE,FALSE,TRUE
+"Ameira scotti","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Podoplea","Harpacticoida","Ameiridae",NA,"Ameira","Ameira scotti","206084","itis",FALSE,TRUE,FALSE,FALSE
+"Ammodytes","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes",NA,"171671","itis",TRUE,FALSE,FALSE,TRUE
+"Ammodytes americanus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes","Ammodytes americanus","171673","itis",FALSE,FALSE,TRUE,TRUE
+"Ammodytes dubius","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes","Ammodytes dubius","171674","itis",FALSE,FALSE,TRUE,FALSE
+"Ammodytes personatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes","Ammodytes personatus","630414","itis",FALSE,FALSE,FALSE,TRUE
+"Ammodytes tobianus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Ammodytidae",NA,"Ammodytes","Ammodytes tobianus","171676","itis",FALSE,FALSE,TRUE,FALSE
+"Amphiascopsis cinctus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Podoplea","Harpacticoida","Diosaccidae",NA,"Amphiascopsis","Amphiascopsis cinctus","87769","itis",TRUE,FALSE,FALSE,FALSE
+"Amphitrite figulus","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Terebellidae",NA,"Amphitrite","Amphitrite figulus","67905","itis",TRUE,FALSE,FALSE,FALSE
+"Anarhichas","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Anarhichadidae",NA,"Anarhichas",NA,"171336","itis",FALSE,FALSE,TRUE,FALSE
+"Anatidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Aves",NA,"Anseriformes","Anatidae",NA,NA,NA,"174983","itis",FALSE,FALSE,TRUE,FALSE
+"Anisarchus medius","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Stichaeidae",NA,"Anisarchus","Anisarchus medius","171620","itis",FALSE,FALSE,FALSE,TRUE
+"Annelida","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"64357","itis",FALSE,TRUE,FALSE,FALSE
+"Anobothrus gracilis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Ampharetidae",NA,"Anobothrus","Anobothrus gracilis","67778","itis",FALSE,TRUE,FALSE,FALSE
+"Aphrodita hastata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Aphroditidae",NA,"Aphrodita","Aphrodita hastata","64365","itis",TRUE,FALSE,FALSE,FALSE
+"Arctica islandica","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Veneroida","Arcticidae",NA,"Arctica","Arctica islandica","81343","itis",TRUE,FALSE,FALSE,FALSE
+"Arctozenus risso","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Cyclosquamata","Aulopiformes","Paralepididae",NA,"Arctozenus","Arctozenus risso","644687","itis",FALSE,FALSE,TRUE,FALSE
+"Argentina silus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Protacanthopterygii","Osmeriformes","Argentinidae",NA,"Argentina","Argentina silus","162064","itis",TRUE,FALSE,TRUE,TRUE
+"Aricidea","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Paraonidae",NA,"Aricidea",NA,"66666","itis",FALSE,TRUE,FALSE,FALSE
+"Artacama proboscidea","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Terebellidae",NA,"Artacama","Artacama proboscidea","67987","itis",TRUE,FALSE,FALSE,FALSE
+"Asterias rubens","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Forcipulatacea","Forcipulatida","Asteriidae",NA,"Asterias","Asterias rubens","157220","itis",TRUE,FALSE,TRUE,FALSE
+"Aurelia","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Scyphozoa",NA,"Semaeostomeae","Ulmaridae","Aureliinae","Aurelia",NA,"51700","itis",TRUE,FALSE,FALSE,FALSE
+"Aurelia aurita","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Scyphozoa",NA,"Semaeostomeae","Ulmaridae","Aureliinae","Aurelia","Aurelia aurita","51701","itis",TRUE,FALSE,FALSE,FALSE
+"Aves","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Aves",NA,NA,NA,NA,NA,NA,"174371","itis",TRUE,FALSE,FALSE,FALSE
+"Balaenoptera acutorostrata","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Balaenopteridae",NA,"Balaenoptera","Balaenoptera acutorostrata","180524","itis",TRUE,FALSE,TRUE,FALSE
+"Balaenoptera musculus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Balaenopteridae",NA,"Balaenoptera","Balaenoptera musculus","180528","itis",TRUE,FALSE,TRUE,FALSE
+"Balaenoptera physalus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Balaenopteridae",NA,"Balaenoptera","Balaenoptera physalus","180527","itis",FALSE,FALSE,TRUE,FALSE
+"Balanidae","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Thoracica","Sessilia","Balanidae",NA,NA,NA,"89599","itis",TRUE,FALSE,FALSE,FALSE
+"Balanus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Thoracica","Sessilia","Balanidae",NA,"Balanus",NA,"89600","itis",TRUE,FALSE,FALSE,FALSE
+"Balanus crenatus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Thoracica","Sessilia","Balanidae",NA,"Balanus","Balanus crenatus","89606","itis",TRUE,FALSE,FALSE,FALSE
+"Bathycalanus princeps","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Megacalanidae",NA,"Bathycalanus","Bathycalanus princeps","205900","itis",FALSE,TRUE,FALSE,FALSE
+"Bathypolypus arcticus","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Cephalopoda","Octobrachia","Octopoda","Octopodidae","Bathypolypodinae","Bathypolypus","Bathypolypus arcticus","82636","itis",TRUE,FALSE,FALSE,FALSE
+"Benthosema glaciale","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Scopelomorpha","Myctophiformes","Myctophidae","Myctophinae","Benthosema","Benthosema glaciale","162680","itis",TRUE,FALSE,FALSE,TRUE
+"Bos taurus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Artiodactyla","Bovidae","Bovinae","Bos","Bos taurus","183838","itis",TRUE,FALSE,FALSE,FALSE
+"Bougainvillia muscus","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Bougainvilliidae",NA,"Bougainvillia","Bougainvillia muscus","48800","itis",TRUE,FALSE,FALSE,FALSE
+"Brada villosa","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Flabelligeridae",NA,"Brada","Brada villosa","67227","itis",TRUE,FALSE,FALSE,FALSE
+"Brisaster fragilis","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Echinoidea","Atelostomata","Spatangoida","Schizasteridae",NA,"Brisaster","Brisaster fragilis","158080","itis",TRUE,FALSE,FALSE,FALSE
+"Brosme brosme","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Lotinae","Brosme","Brosme brosme","164740","itis",TRUE,FALSE,TRUE,TRUE
+"Calanus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Calanidae",NA,"Calanus",NA,"85263","itis",TRUE,FALSE,FALSE,FALSE
+"Calanus finmarchicus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Calanidae",NA,"Calanus","Calanus finmarchicus","85272","itis",TRUE,FALSE,FALSE,FALSE
+"Calanus hyperboreus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Calanidae",NA,"Calanus","Calanus hyperboreus","85266","itis",TRUE,FALSE,FALSE,FALSE
+"Cancer borealis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Decapoda","Cancridae",NA,"Cancer","Cancer borealis","98678","itis",TRUE,FALSE,FALSE,FALSE
+"Canis lupus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Carnivora","Canidae",NA,"Canis","Canis lupus","180596","itis",TRUE,FALSE,FALSE,FALSE
+"Caridion gordoni","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Decapoda","Hippolytidae",NA,"Caridion","Caridion gordoni","96886","itis",TRUE,FALSE,FALSE,FALSE
+"Catablema multicirratum","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Pandeidae",NA,"Catablema","Catablema multicirratum","49175","itis",TRUE,FALSE,FALSE,FALSE
+"Catablema vesicarium","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Pandeidae",NA,"Catablema","Catablema vesicarium","49173","itis",TRUE,FALSE,FALSE,FALSE
+"Centropages hamatus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Centropagidae",NA,"Centropages","Centropages hamatus","85766","itis",TRUE,FALSE,FALSE,FALSE
+"Centropages typicus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Centropagidae",NA,"Centropages","Centropages typicus","85767","itis",TRUE,FALSE,FALSE,FALSE
+"Centroscyllium fabricii","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Squaliformes","Etmopteridae",NA,"Centroscyllium","Centroscyllium fabricii","160703","itis",TRUE,FALSE,TRUE,TRUE
+"Cephalothrix filiformis","Animalia","Bilateria","Protostomia","Nemertea",NA,NA,NA,"Anopla",NA,"Paleonemertea","Cephalothricidae",NA,"Procephalothrix","Procephalothrix filiformis","204261","itis",FALSE,TRUE,FALSE,FALSE
+"Ceratocephale loveni","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Nereididae",NA,"Ceratocephale","Ceratocephale loveni","65956","itis",FALSE,TRUE,FALSE,FALSE
+"Ceriantheopsis americana","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Ceriantharia","Cerianthidae",NA,"Ceriantheopsis","Ceriantheopsis americana","51991","itis",FALSE,TRUE,FALSE,FALSE
+"Cetorhinus maximus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Lamniformes","Cetorhinidae",NA,"Cetorhinus","Cetorhinus maximus","159907","itis",TRUE,FALSE,TRUE,TRUE
+"Chaetognatha","Animalia","Bilateria","Protostomia","Chaetognatha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"158650","itis",TRUE,FALSE,FALSE,FALSE
+"Chaetozone","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Cirratulidae",NA,"Chaetozone",NA,"67156","itis",TRUE,FALSE,FALSE,FALSE
+"Cheliplanilla caudata","Animalia","Bilateria","Protostomia","Platyhelminthes","Rhabditophora",NA,NA,"Trepaxonemata",NA,"Neoophora","Cheliplanidae",NA,"Cheliplanilla","Cheliplanilla caudata","1039283","itis",FALSE,TRUE,FALSE,FALSE
+"Chlamys islandica","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Ostreoida","Pectinidae",NA,"Chlamys","Chlamys islandica","79619","itis",TRUE,FALSE,FALSE,FALSE
+"Chone infundibuliformis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Sabellidae",NA,"Chone","Chone infundibuliformis","68079","itis",TRUE,FALSE,FALSE,FALSE
+"Citharichthys arctifrons","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Paralichthyidae",NA,"Citharichthys","Citharichthys arctifrons","172719","itis",TRUE,FALSE,TRUE,TRUE
+"Clausocalanus furcatus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Clausocalanus","Clausocalanus furcatus","85355","itis",FALSE,TRUE,FALSE,FALSE
+"Clausocalanus pergens","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Clausocalanus","Clausocalanus pergens","85356","itis",TRUE,FALSE,FALSE,FALSE
+"Cliona","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Clionaidae",NA,"Cliona",NA,"48523","itis",TRUE,FALSE,FALSE,FALSE
+"Clupea harengus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Clupeomorpha","Clupeiformes","Clupeidae","Clupeinae","Clupea","Clupea harengus","161722","itis",FALSE,FALSE,TRUE,TRUE
+"Clytia","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Campanulariidae",NA,"Clytia",NA,"49580","itis",TRUE,TRUE,FALSE,FALSE
+"Cnidaria","Animalia","Radiata",NA,"Cnidaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"48738","itis",TRUE,FALSE,FALSE,FALSE
+"Creseis virgula","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Gastropoda",NA,"Thecosomata","Cavoliniidae",NA,"Creseis","Creseis virgula","76389","itis",TRUE,FALSE,FALSE,FALSE
+"Crustacea","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,NA,NA,NA,NA,NA,NA,NA,"83677","itis",FALSE,TRUE,FALSE,FALSE
+"Cryptacanthodes giganteus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Cryptacanthodidae",NA,"Cryptacanthodes","Cryptacanthodes giganteus","171612","itis",FALSE,FALSE,TRUE,TRUE
+"Ctenodiscus crispatus","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Valvatacea","Paxillosida","Ctenodiscidae",NA,"Ctenodiscus","Ctenodiscus crispatus","156940","itis",TRUE,FALSE,FALSE,FALSE
+"Cucumaria frondosa","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Holothuroidea",NA,"Dendrochirotida","Cucumariidae",NA,"Cucumaria","Cucumaria frondosa","158195","itis",TRUE,FALSE,FALSE,FALSE
+"Cyanea","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Scyphozoa",NA,"Semaeostomeae","Cyaneidae",NA,"Cyanea",NA,"51669","itis",TRUE,FALSE,FALSE,FALSE
+"Cyclopina gracilis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Podoplea","Cyclopoida","Cyclopinidae",NA,"Cyclopina","Cyclopina gracilis","88865","itis",FALSE,TRUE,FALSE,FALSE
+"Cyclothone microdon","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Stenopterygii","Stomiiformes","Gonostomatidae",NA,"Cyclothone","Cyclothone microdon","162170","itis",FALSE,FALSE,TRUE,FALSE
+"Cyrtodaria siliqua","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Myoida","Hiatellidae",NA,"Cyrtodaria","Cyrtodaria siliqua","81763","itis",TRUE,FALSE,FALSE,FALSE
+"Delphinidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Delphinidae",NA,NA,NA,"180415","itis",TRUE,FALSE,TRUE,FALSE
+"Dinophyceae","Chromista","Chromista",NA,NA,NA,NA,NA,"Dinophyceae",NA,NA,NA,NA,NA,NA,"9874","itis",FALSE,TRUE,FALSE,FALSE
+"Dipturus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Dipturus",NA,"564033","itis",FALSE,FALSE,FALSE,TRUE
+"Dipturus batis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Dipturus","Dipturus batis","564126","itis",FALSE,FALSE,FALSE,TRUE
+"Dorvilleidae","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Eunicida","Dorvilleidae",NA,NA,NA,"66478","itis",TRUE,FALSE,FALSE,FALSE
+"Echinarachnius parma","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Echinoidea","Gnathostomata","Clypeasteroida","Echinarachniidae",NA,"Echinarachnius","Echinarachnius parma","158016","itis",TRUE,FALSE,FALSE,FALSE
+"Echinorhynchus gadi","Animalia","Bilateria","Protostomia","Acanthocephala",NA,NA,NA,"Palaeacanthocephala",NA,"Echinorhynchida","Echinorhynchidae","Echinorhynchinae","Echinorhynchus","Echinorhynchus gadi","64279","itis",FALSE,TRUE,FALSE,FALSE
+"Enchelyopus cimbrius","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Phycinae","Enchelyopus","Enchelyopus cimbrius","164748","itis",FALSE,FALSE,TRUE,TRUE
+"Enipo torelli","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Polynoidae",NA,"Enipo","Enipo torelli","64718","itis",TRUE,FALSE,FALSE,FALSE
+"Ennucula tenuis","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Nuculoida","Nuculidae",NA,"Ennucula","Ennucula tenuis","567536","itis",TRUE,FALSE,FALSE,FALSE
+"Equus caballus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Perissodactyla","Equidae",NA,"Equus","Equus caballus","180691","itis",TRUE,FALSE,FALSE,FALSE
+"Ericthonius fasciatus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Peracarida","Amphipoda","Ischyroceridae",NA,"Ericthonius","Ericthonius fasciatus","93619","itis",TRUE,FALSE,FALSE,FALSE
+"Eubranchus pallidus","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Gastropoda",NA,"Nudibranchia","Eubranchidae",NA,"Eubranchus","Eubranchus pallidus","78605","itis",TRUE,FALSE,FALSE,FALSE
+"Eudendrium capillare","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Eudendriidae",NA,"Eudendrium","Eudendrium capillare","49101","itis",TRUE,FALSE,FALSE,FALSE
+"Euphausia krohni",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Euphausia krohni","95506","itis",TRUE,FALSE,FALSE,FALSE
+"Felis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Carnivora","Felidae","Felinae","Felis",NA,"180586","itis",TRUE,FALSE,FALSE,FALSE
+"Flabelligeridae","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Flabelligeridae",NA,NA,NA,"67224","itis",TRUE,FALSE,FALSE,FALSE
+"Flustra foliacea","Animalia","Bilateria","Protostomia","Bryozoa",NA,NA,NA,"Gymnolaemata",NA,"Cheilostomata","Flustridae",NA,"Flustra","Flustra foliacea","155886","itis",TRUE,FALSE,FALSE,FALSE
+"Gadidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae",NA,NA,NA,"164701","itis",FALSE,FALSE,TRUE,FALSE
+"Gadus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Gadinae","Gadus",NA,"164710","itis",FALSE,FALSE,TRUE,TRUE
+"Gadus morhua","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Gadinae","Gadus","Gadus morhua","164712","itis",FALSE,FALSE,TRUE,FALSE
+"Galathowenia oculata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Oweniidae",NA,"Galathowenia","Galathowenia oculata","67662","itis",TRUE,FALSE,FALSE,FALSE
+"Gallus gallus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Aves",NA,"Galliformes","Phasianidae","Phasianinae","Gallus","Gallus gallus","176086","itis",TRUE,FALSE,FALSE,FALSE
+"Gastrotricha","Animalia","Bilateria","Protostomia","Gastrotricha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"57597","itis",FALSE,TRUE,FALSE,FALSE
+"Gersemia rubiformis","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Alcyonacea","Alcyoniidae",NA,"Gersemia","Gersemia rubiformis","52037","itis",TRUE,FALSE,FALSE,FALSE
+"Glycera capitata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Glyceridae",NA,"Glycera","Glycera capitata","66103","itis",TRUE,FALSE,FALSE,FALSE
+"Glyptocephalus cynoglossus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Pleuronectinae","Glyptocephalus","Glyptocephalus cynoglossus","172873","itis",TRUE,FALSE,TRUE,TRUE
+"Gonactiniidae","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Actiniaria","Gonactiniidae",NA,NA,NA,"52833","itis",TRUE,FALSE,FALSE,FALSE
+"Goniada maculata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Goniadidae",NA,"Goniada","Goniada maculata","66140","itis",TRUE,FALSE,FALSE,FALSE
+"Gonostoma elongatum","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Stenopterygii","Stomiiformes","Gonostomatidae",NA,"Gonostoma","Gonostoma elongatum","162185","itis",FALSE,FALSE,FALSE,TRUE
+"Halichondria panicea","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Halichondrida","Halichondriidae",NA,"Halichondria","Halichondria panicea","48396","itis",TRUE,FALSE,FALSE,FALSE
+"Halocyprida","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Ostracoda",NA,"Halocyprida",NA,NA,NA,NA,"609938","itis",TRUE,FALSE,FALSE,FALSE
+"Halopsis ocellata","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Mitrocomidae",NA,"Halopsis","Halopsis ocellata","50476","itis",TRUE,FALSE,FALSE,FALSE
+"Helicolenus dactylopterus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Helicolenus","Helicolenus dactylopterus","166787","itis",FALSE,FALSE,TRUE,TRUE
+"Henricia","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Spinulosacea","Spinulosida","Echinasteridae",NA,"Henricia",NA,"157152","itis",TRUE,FALSE,FALSE,FALSE
+"Heteromastus filiformis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Capitellidae",NA,"Heteromastus","Heteromastus filiformis","67420","itis",FALSE,TRUE,FALSE,FALSE
+"Hippoglossina oblonga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hippoglossina oblonga","172783","itis",FALSE,FALSE,TRUE,FALSE
+"Hippoglossoides","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Hippoglossoidinae","Hippoglossoides",NA,"172874","itis",FALSE,FALSE,TRUE,TRUE
+"Hippoglossoides platessoides","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Hippoglossoidinae","Hippoglossoides","Hippoglossoides platessoides","172877","itis",TRUE,FALSE,FALSE,FALSE
+"Hippoglossus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Hippoglossinae","Hippoglossus",NA,"172931","itis",FALSE,FALSE,TRUE,FALSE
+"Hippoglossus hippoglossus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Hippoglossinae","Hippoglossus","Hippoglossus hippoglossus","172933","itis",TRUE,FALSE,FALSE,TRUE
+"Homo sapiens","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Primates","Hominidae","Homininae","Homo","Homo sapiens","180092","itis",TRUE,TRUE,FALSE,FALSE
+"Hydractinia","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Hydractiniidae",NA,"Hydractinia",NA,"49359","itis",TRUE,FALSE,FALSE,FALSE
+"Hydrozoa","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,NA,NA,NA,NA,NA,"48739","itis",TRUE,TRUE,FALSE,FALSE
+"Hymeraphia stellifera","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Poecilosclerida","Raspailiidae","Raspailiinae","Hymeraphia","Hymeraphia stellifera","48148","itis",TRUE,FALSE,FALSE,FALSE
+"Illex","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Cephalopoda","Decabrachia","Teuthida","Ommastrephidae","Illicinae","Illex",NA,"82520","itis",TRUE,FALSE,FALSE,FALSE
+"Lafoea dumosa","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Lafoeidae",NA,"Lafoea","Lafoea dumosa","49682","itis",TRUE,FALSE,FALSE,FALSE
+"Lagenorhynchus acutus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Delphinidae",NA,"Lagenorhynchus","Lagenorhynchus acutus","180443","itis",FALSE,FALSE,TRUE,FALSE
+"Lamna nasus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Lamniformes","Lamnidae",NA,"Lamna","Lamna nasus","159911","itis",FALSE,FALSE,TRUE,TRUE
+"Lamniformes","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Lamniformes",NA,NA,NA,NA,"159851","itis",FALSE,FALSE,TRUE,FALSE
+"Laonice","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Spionida","Spionidae",NA,"Laonice",NA,"66784","itis",FALSE,TRUE,FALSE,FALSE
+"Laonice cirrata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Spionida","Spionidae",NA,"Laonice","Laonice cirrata","66785","itis",TRUE,FALSE,FALSE,FALSE
+"Laonice sarsi","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Spionida","Spionidae",NA,"Laonice","Laonice sarsi","204499","itis",TRUE,FALSE,FALSE,FALSE
+"Leptasterias littoralis","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Forcipulatacea","Forcipulatida","Asteriidae",NA,"Leptasterias","Leptasterias littoralis","157248","itis",TRUE,FALSE,FALSE,FALSE
+"Leptasterias polaris","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Forcipulatacea","Forcipulatida","Asteriidae",NA,"Leptasterias","Leptasterias polaris","157240","itis",TRUE,FALSE,FALSE,FALSE
+"Leptoclinus maculatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Stichaeidae",NA,"Leptoclinus","Leptoclinus maculatus","171603","itis",FALSE,FALSE,FALSE,TRUE
+"Leptothecata","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae",NA,NA,NA,NA,"718926","itis",TRUE,FALSE,FALSE,FALSE
+"Lestidiops ringens","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Cyclosquamata","Aulopiformes","Paralepididae",NA,"Lestidiops","Lestidiops ringens","644717","itis",FALSE,FALSE,FALSE,TRUE
+"Leuckartiara nobilis","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Pandeidae",NA,"Leuckartiara","Leuckartiara nobilis","49148","itis",TRUE,FALSE,FALSE,FALSE
+"Leuckartiara octona","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Pandeidae",NA,"Leuckartiara","Leuckartiara octona","49146","itis",TRUE,FALSE,FALSE,FALSE
+"Leucoraja erinacea","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Leucoraja","Leucoraja erinacea","564130","itis",TRUE,FALSE,TRUE,TRUE
+"Leucoraja ocellata","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Leucoraja","Leucoraja ocellata","564145","itis",FALSE,FALSE,TRUE,FALSE
+"Limacina helicina","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Gastropoda",NA,"Thecosomata","Limacinidae",NA,"Limacina","Limacina helicina","76340","itis",TRUE,FALSE,FALSE,FALSE
+"Liparis gibbus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Liparidae",NA,"Liparis","Liparis gibbus","167561","itis",FALSE,FALSE,TRUE,FALSE
+"Liparis inquilinus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Liparidae",NA,"Liparis","Liparis inquilinus","167577","itis",FALSE,FALSE,FALSE,TRUE
+"Lophius americanus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Lophiiformes","Lophiidae",NA,"Lophius","Lophius americanus","164499","itis",TRUE,FALSE,TRUE,TRUE
+"Loxosomella","Animalia","Bilateria","Protostomia","Kamptozoa",NA,NA,NA,"Entoprocta",NA,"Coloniales","Loxosomatidae",NA,"Loxosomella",NA,"708695","itis",FALSE,TRUE,FALSE,FALSE
+"Lumpenus lampretaeformis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Stichaeidae",NA,"Lumpenus","Lumpenus lampretaeformis","631023","itis",TRUE,FALSE,TRUE,TRUE
+"Lycenchelys kolthoffi","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Zoarcidae",NA,"Lycenchelys","Lycenchelys kolthoffi","165246","itis",FALSE,FALSE,TRUE,TRUE
+"Lycodes vahlii","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Zoarcidae",NA,"Lycodes","Lycodes vahlii","165284","itis",TRUE,FALSE,FALSE,FALSE
+"Macoma calcarea","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Veneroida","Tellinidae",NA,"Macoma","Macoma calcarea","81035","itis",TRUE,FALSE,FALSE,FALSE
+"Malacoraja kreffti","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,"Malacoraja","Malacoraja kreffti","564228","itis",FALSE,FALSE,FALSE,TRUE
+"Maldane sarsi","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Maldanidae",NA,"Maldane","Maldane sarsi","67536","itis",TRUE,FALSE,FALSE,FALSE
+"Maxillopoda","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda",NA,NA,NA,NA,NA,NA,"621145","itis",FALSE,TRUE,FALSE,FALSE
+"Meganyctiphanes norvegica","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Meganyctiphanes","Meganyctiphanes norvegica","95534","itis",TRUE,FALSE,FALSE,FALSE
+"Megaptera novaeangliae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Balaenopteridae",NA,"Megaptera","Megaptera novaeangliae","180530","itis",TRUE,FALSE,TRUE,FALSE
+"Melanogrammus aeglefinus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Gadinae","Melanogrammus","Melanogrammus aeglefinus","164744","itis",TRUE,FALSE,FALSE,TRUE
+"Melicertum octocostatum","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Melicertidae",NA,"Melicertum","Melicertum octocostatum","50547","itis",TRUE,FALSE,FALSE,FALSE
+"Melinna cristata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Ampharetidae",NA,"Melinna","Melinna cristata","67763","itis",TRUE,FALSE,FALSE,FALSE
+"Membranipora membranacea","Animalia","Bilateria","Protostomia","Bryozoa",NA,NA,NA,"Gymnolaemata",NA,"Cheilostomata","Membraniporidae",NA,"Membranipora","Membranipora membranacea","155824","itis",TRUE,FALSE,FALSE,FALSE
+"Merluccius albidus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Merlucciidae","Merlucciinae","Merluccius","Merluccius albidus","164793","itis",TRUE,FALSE,TRUE,TRUE
+"Merluccius bilinearis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Merlucciidae","Merlucciinae","Merluccius","Merluccius bilinearis","164791","itis",TRUE,FALSE,TRUE,TRUE
+"Metridia lucens","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Metridinidae",NA,"Metridia","Metridia lucens","85741","itis",TRUE,FALSE,FALSE,FALSE
+"Metridium","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Actiniaria","Metridiidae",NA,"Metridium",NA,"52736","itis",TRUE,FALSE,TRUE,FALSE
+"Mitrocomella polydiademata","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Mitrocomidae",NA,"Mitrocomella","Mitrocomella polydiademata","50459","itis",TRUE,FALSE,FALSE,FALSE
+"Molgula complanata","Animalia","Bilateria","Deuterostomia","Chordata","Urochordata",NA,NA,"Ascidiacea",NA,"Pleurogona","Molgulidae",NA,"Molgula","Molgula complanata","159568","itis",FALSE,TRUE,FALSE,FALSE
+"Myoxocephalus octodecemspinosus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Cottidae",NA,"Myoxocephalus","Myoxocephalus octodecemspinosus","167320","itis",FALSE,FALSE,TRUE,TRUE
+"Myoxocephalus scorpius","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Cottidae",NA,"Myoxocephalus","Myoxocephalus scorpius","167318","itis",FALSE,FALSE,FALSE,TRUE
+"Mytilus edulis","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Mytiloida","Mytilidae",NA,"Mytilus","Mytilus edulis","79454","itis",TRUE,FALSE,FALSE,FALSE
+"Myxicola","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Sabellidae",NA,"Myxicola",NA,NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Myxicola infundibulum","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Sabellidae",NA,"Myxicola","Myxicola infundibulum","68125","itis",TRUE,FALSE,FALSE,FALSE
+"Myxidium","Animalia","Radiata",NA,"Cnidaria","Myxozoa",NA,NA,"Myxosporea",NA,"Bipolarina","Myxidiidae",NA,"Myxidium",NA,NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Myxine limosa","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Agnatha",NA,"Myxini",NA,"Myxiniformes","Myxinidae","Myxininae","Myxine","Myxine limosa","622239","itis",TRUE,FALSE,FALSE,FALSE
+"Nanomia cara","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Siphonophorae","Agalmatidae",NA,"Nanomia","Nanomia cara","51388","itis",TRUE,FALSE,FALSE,FALSE
+"Nematoscelis megalops","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Nematoscelis","Nematoscelis megalops","95542","itis",TRUE,FALSE,FALSE,FALSE
+"Neottiura bimaculata","Animalia","Bilateria","Protostomia","Arthropoda","Chelicerata",NA,NA,"Euchelicerata",NA,"Araneae","Theridiidae",NA,"Neottiura","Neottiura bimaculata","862575","itis",TRUE,FALSE,FALSE,FALSE
+"Nereis pelagica","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Nereididae",NA,"Nereis","Nereis pelagica","65905","itis",TRUE,FALSE,FALSE,FALSE
+"Nezumia bairdii","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Macrouridae","Macrourinae","Nezumia","Nezumia bairdii","165395","itis",FALSE,FALSE,TRUE,FALSE
+"Nothria conchylega","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Eunicida","Onuphidae",NA,"Nothria","Nothria conchylega","66190","itis",TRUE,FALSE,FALSE,FALSE
+"Notomastus latericeus","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Capitellidae",NA,"Notomastus","Notomastus latericeus",NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Notoscopelus elongatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Scopelomorpha","Myctophiformes","Myctophidae","Lampanyctinae","Notoscopelus","Notoscopelus elongatus","162659","itis",FALSE,FALSE,FALSE,TRUE
+"Obelia","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Campanulariidae",NA,"Obelia",NA,"49514","itis",TRUE,FALSE,FALSE,FALSE
+"Oithona similis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Podoplea","Cyclopoida","Oithonidae",NA,"Oithona","Oithona similis","88805","itis",TRUE,FALSE,FALSE,FALSE
+"Oncorhynchus mykiss","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Protacanthopterygii","Salmoniformes","Salmonidae","Salmoninae","Oncorhynchus","Oncorhynchus mykiss","161989","itis",TRUE,FALSE,FALSE,TRUE
+"Ophelina acuminata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Opheliidae",NA,"Ophelina","Ophelina acuminata","67391","itis",TRUE,FALSE,FALSE,FALSE
+"Ophiopholis aculeata","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Ophiuroidea",NA,"Ophiurida","Ophiactidae",NA,"Ophiopholis","Ophiopholis aculeata","157617","itis",TRUE,FALSE,FALSE,FALSE
+"Ophiura","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Ophiuroidea",NA,"Ophiurida","Ophiuridae",NA,"Ophiura",NA,"157411","itis",TRUE,FALSE,FALSE,FALSE
+"Ophiuroidea","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Ophiuroidea",NA,NA,NA,NA,NA,NA,"157325","itis",TRUE,FALSE,FALSE,FALSE
+"Owenia fusiformis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Oweniidae",NA,"Owenia","Owenia fusiformis","67647","itis",TRUE,FALSE,FALSE,FALSE
+"Paracalanidae","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Paracalanidae",NA,NA,NA,"85321","itis",TRUE,FALSE,FALSE,FALSE
+"Paracalanus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Paracalanidae",NA,"Paracalanus",NA,"85322","itis",TRUE,FALSE,FALSE,FALSE
+"Paraeuchaeta norvegica","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Euchaetidae",NA,"Paraeuchaeta","Paraeuchaeta norvegica","85544","itis",TRUE,FALSE,FALSE,FALSE
+"Paramphinome jeffreysii","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Amphinomida","Amphinomidae",NA,"Paramphinome","Paramphinome jeffreysii","65185","itis",TRUE,FALSE,FALSE,FALSE
+"Paranerilla limicola","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Nerillidae",NA,"Paranerilla","Paranerilla limicola",NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Pectinaria granulata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Pectinariidae",NA,"Pectinaria","Pectinaria granulata","67711","itis",TRUE,FALSE,FALSE,FALSE
+"Pennatula aculeata","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Pennatulacea","Pennatulidae",NA,"Pennatula","Pennatula aculeata","52418","itis",TRUE,FALSE,FALSE,FALSE
+"Phacellophora camtschatica","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Scyphozoa",NA,"Semaeostomeae","Ulmaridae","Sthenoniinae","Phacellophora","Phacellophora camtschatica","51696","itis",TRUE,FALSE,FALSE,FALSE
+"Phascolion strombus","Animalia","Bilateria","Protostomia","Sipuncula",NA,NA,NA,"Sipunculidea",NA,"Golfingiiformes","Phascoliidae",NA,"Phascolion","Phascolion strombus",NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Pherusa affinis","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Flabelligeridae",NA,"Pherusa","Pherusa affinis","67247","itis",TRUE,FALSE,FALSE,FALSE
+"Phocoena phocoena","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Phocoenidae",NA,"Phocoena","Phocoena phocoena","180473","itis",TRUE,FALSE,TRUE,FALSE
+"Pholis gunnellus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Pholidae",NA,"Pholis","Pholis gunnellus","171645","itis",FALSE,FALSE,TRUE,TRUE
+"Phycis chesteri","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Phycinae","Phycis","Phycis chesteri","164734","itis",FALSE,FALSE,TRUE,TRUE
+"Phyllodoce groenlandica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Phyllodoce groenlandica","65233","itis",TRUE,FALSE,FALSE,FALSE
+"Pleuromamma borealis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Metridinidae",NA,"Pleuromamma","Pleuromamma borealis","85753","itis",TRUE,FALSE,FALSE,FALSE
+"Pleuronectidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae",NA,NA,NA,"172859","itis",FALSE,FALSE,TRUE,TRUE
+"Plexauridae","Animalia","Radiata",NA,"Cnidaria","Anthozoa",NA,NA,"Anthozoa",NA,"Alcyonacea","Plexauridae",NA,NA,NA,"52172","itis",TRUE,FALSE,FALSE,FALSE
+"Plotocnide borealis","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae",NA,NA,"Plotocnide","Plotocnide borealis","48934","itis",TRUE,FALSE,FALSE,FALSE
+"Pollachius virens","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Gadinae","Pollachius","Pollachius virens","164727","itis",TRUE,FALSE,TRUE,TRUE
+"Priapulus caudatus","Animalia","Bilateria","Protostomia","Priapulida",NA,NA,NA,NA,NA,NA,"Priapulidae",NA,"Priapulus","Priapulus caudatus","155156","itis",TRUE,TRUE,FALSE,FALSE
+"Prionace glauca","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Carcharhiniformes","Carcharhinidae",NA,"Prionace","Prionace glauca","160424","itis",FALSE,FALSE,TRUE,TRUE
+"Protomyctophum arcticum","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Scopelomorpha","Myctophiformes","Myctophidae","Myctophinae","Protomyctophum","Protomyctophum arcticum","162689","itis",FALSE,FALSE,TRUE,FALSE
+"Protosuberites","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Suberitidae",NA,"Protosuberites",NA,"659298","itis",TRUE,FALSE,FALSE,FALSE
+"Pseudocalanus mimus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Pseudocalanus","Pseudocalanus mimus","667023","itis",TRUE,FALSE,FALSE,FALSE
+"Pseudocalanus minutus","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Pseudocalanus","Pseudocalanus minutus","85371","itis",TRUE,FALSE,FALSE,FALSE
+"Pseudocalanus moultoni","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Pseudocalanus","Pseudocalanus moultoni","667024","itis",TRUE,FALSE,FALSE,FALSE
+"Pseudocalanus newmani","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Clausocalanidae",NA,"Pseudocalanus","Pseudocalanus newmani","202548","itis",TRUE,FALSE,FALSE,FALSE
+"Pseudopleuronectes americanus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Pleuronectidae","Pleuronectinae","Pseudopleuronectes","Pseudopleuronectes americanus","172905","itis",FALSE,FALSE,TRUE,FALSE
+"Pseudopotamilla reniformis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Pseudopotamilla reniformis","68137","itis",TRUE,TRUE,FALSE,FALSE
+"Pseudosuberites","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Suberitidae",NA,"Pseudosuberites",NA,"48502","itis",TRUE,FALSE,FALSE,FALSE
+"Psolus phantapus","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Holothuroidea",NA,"Dendrochirotida","Psolidae",NA,"Psolus","Psolus phantapus","158156","itis",TRUE,FALSE,FALSE,FALSE
+"Raja radiata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Raja radiata","160876","itis",FALSE,FALSE,TRUE,FALSE
+"Rajidae","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Rajiformes","Rajidae",NA,NA,NA,"160845","itis",TRUE,FALSE,FALSE,FALSE
+"Rhizocaulus verticillatus","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Campanulariidae",NA,"Rhizocaulus","Rhizocaulus verticillatus","49667","itis",TRUE,FALSE,FALSE,FALSE
+"Sabellides octocirrata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Ampharetidae",NA,"Sabellides","Sabellides octocirrata","67773","itis",TRUE,FALSE,FALSE,FALSE
+"Salmo salar","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Protacanthopterygii","Salmoniformes","Salmonidae","Salmoninae","Salmo","Salmo salar","161996","itis",TRUE,FALSE,TRUE,TRUE
+"Scaphander punctostriatus","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Gastropoda",NA,"Cephalaspidea","Cylichnidae",NA,"Scaphander","Scaphander punctostriatus","76166","itis",TRUE,FALSE,FALSE,FALSE
+"Sciaphilus asperatus","Animalia","Bilateria","Protostomia","Arthropoda","Hexapoda",NA,NA,"Insecta","Holometabola","Coleoptera","Curculionidae",NA,"Sciaphilus","Sciaphilus asperatus","618966","itis",TRUE,FALSE,FALSE,FALSE
+"Scoloplos","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Orbiniidae",NA,"Scoloplos",NA,"66594","itis",TRUE,FALSE,FALSE,FALSE
+"Scomber scombrus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Scombridae","Scombrinae","Scomber","Scomber scombrus","172414","itis",TRUE,FALSE,TRUE,TRUE
+"Scomberesox saurus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Beloniformes","Scomberesocidae",NA,"Scomberesox","Scomberesox saurus","165612","itis",FALSE,FALSE,FALSE,TRUE
+"Scophthalmus aquosus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Pleuronectiformes","Scophthalmidae",NA,"Scophthalmus","Scophthalmus aquosus","172746","itis",FALSE,FALSE,TRUE,FALSE
+"Sebastes","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Sebastes",NA,"166705","itis",FALSE,FALSE,FALSE,TRUE
+"Sebastes entomelas","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Sebastes","Sebastes entomelas","166719","itis",FALSE,FALSE,FALSE,TRUE
+"Sebastes fasciatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Sebastes","Sebastes fasciatus","166774","itis",FALSE,FALSE,TRUE,FALSE
+"Sebastes mentella","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Scorpaenidae",NA,"Sebastes","Sebastes mentella","166756","itis",FALSE,FALSE,TRUE,FALSE
+"Smittia","Animalia","Bilateria","Protostomia","Arthropoda","Hexapoda",NA,NA,"Insecta","Holometabola","Diptera","Chironomidae","Orthocladiinae","Smittia",NA,"129110","itis",TRUE,FALSE,FALSE,FALSE
+"Solaster dawsoni","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Valvatacea","Valvatida","Solasteridae",NA,"Solaster","Solaster dawsoni","157075","itis",FALSE,FALSE,TRUE,FALSE
+"Solaster endeca","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Valvatacea","Valvatida","Solasteridae",NA,"Solaster","Solaster endeca","157076","itis",TRUE,FALSE,FALSE,FALSE
+"Spionidae","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Spionida","Spionidae",NA,NA,NA,"66781","itis",TRUE,FALSE,FALSE,FALSE
+"Squalus acanthias","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Chondrichthyes","Chondrichthyes","Euselachii","Squaliformes","Squalidae",NA,"Squalus","Squalus acanthias","160617","itis",TRUE,FALSE,TRUE,TRUE
+"Stenella coeruleoalba","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Delphinidae",NA,"Stenella","Stenella coeruleoalba","180434","itis",TRUE,FALSE,FALSE,FALSE
+"Stephanasterias albula","Animalia","Bilateria","Deuterostomia","Echinodermata","Asterozoa",NA,NA,"Asteroidea","Forcipulatacea","Forcipulatida","Asteriidae",NA,"Stephanasterias","Stephanasterias albula","157291","itis",TRUE,FALSE,FALSE,FALSE
+"Stereobalanus canadensis","Animalia","Bilateria","Deuterostomia","Hemichordata",NA,NA,NA,"Enteropneusta",NA,NA,"Harrimaniidae",NA,"Stereobalanus","Stereobalanus canadensis","158623","itis",TRUE,FALSE,FALSE,FALSE
+"Sternaspis scutata","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Sternaspidae",NA,"Sternaspis","Sternaspis scutata","67411","itis",TRUE,FALSE,FALSE,FALSE
+"Streblosoma","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Thelepodidae",NA,"Streblosoma",NA,NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Strongylocentrotus","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Echinoidea","Echinacea","Echinoida","Strongylocentrotidae",NA,"Strongylocentrotus",NA,"157968","itis",TRUE,FALSE,FALSE,FALSE
+"Strongylocentrotus droebachiensis","Animalia","Bilateria","Deuterostomia","Echinodermata","Echinozoa",NA,NA,"Echinoidea","Echinacea","Echinoida","Strongylocentrotidae",NA,"Strongylocentrotus","Strongylocentrotus droebachiensis","157969","itis",TRUE,FALSE,FALSE,FALSE
+"Suberites","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Suberitidae",NA,"Suberites",NA,"48485","itis",TRUE,FALSE,FALSE,FALSE
+"Suberites ficus","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Hadromerida","Suberitidae",NA,"Suberites","Suberites ficus","48488","itis",TRUE,FALSE,FALSE,FALSE
+"Sus scrofa","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Artiodactyla","Suidae","Suinae","Sus","Sus scrofa","180722","itis",TRUE,FALSE,FALSE,FALSE
+"Tautogolabrus adspersus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Labridae",NA,"Tautogolabrus","Tautogolabrus adspersus","170481","itis",FALSE,FALSE,TRUE,TRUE
+"Tedania","Animalia","Radiata",NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Poecilosclerida","Tedaniidae",NA,"Tedania",NA,"48110","itis",TRUE,FALSE,FALSE,FALSE
+"Temora longicornis","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Maxillopoda","Gymnoplea","Calanoida","Temoridae",NA,"Temora","Temora longicornis","85877","itis",TRUE,FALSE,FALSE,FALSE
+"Terebellidae","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Terebellidae",NA,NA,NA,"67899","itis",TRUE,FALSE,FALSE,FALSE
+"Terebellides","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Trichobranchidae",NA,"Terebellides",NA,"68068","itis",TRUE,FALSE,FALSE,FALSE
+"Terebellides californica","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Trichobranchidae",NA,"Terebellides","Terebellides californica",NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Thalia democratica","Animalia","Bilateria","Deuterostomia","Chordata","Urochordata",NA,NA,"Thaliacea",NA,"Salpida","Salpidae",NA,"Thalia","Thalia democratica",NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Thelepus cincinnatus","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Terebellida","Thelepodidae",NA,"Thelepus","Thelepus cincinnatus","67982","itis",TRUE,FALSE,FALSE,FALSE
+"Theridion varians","Animalia","Bilateria","Protostomia","Arthropoda","Chelicerata",NA,NA,"Euchelicerata",NA,"Araneae","Theridiidae",NA,"Theridion","Theridion varians","869177","itis",TRUE,FALSE,FALSE,FALSE
+"Thunnus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Scombridae","Scombrinae","Thunnus",NA,"172418","itis",FALSE,FALSE,FALSE,TRUE
+"Thunnus thynnus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Scombridae","Scombrinae","Thunnus","Thunnus thynnus","172421","itis",TRUE,FALSE,TRUE,FALSE
+"Thysanoessa","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Thysanoessa",NA,"95571","itis",TRUE,FALSE,FALSE,FALSE
+"Thysanoessa longicaudata","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Thysanoessa","Thysanoessa longicaudata","95575","itis",TRUE,FALSE,FALSE,FALSE
+"Thysanoessa raschii","Animalia","Bilateria","Protostomia","Arthropoda","Crustacea",NA,NA,"Malacostraca","Eucarida","Euphausiacea","Euphausiidae",NA,"Thysanoessa","Thysanoessa raschii","660852","itis",TRUE,FALSE,FALSE,FALSE
+"Tiaropsis multicirrata","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Leptothecatae","Tiaropsidae",NA,"Tiaropsis","Tiaropsis multicirrata","49764","itis",TRUE,FALSE,FALSE,FALSE
+"Tomopteris","Animalia","Bilateria","Protostomia","Annelida",NA,NA,NA,"Polychaeta",NA,"Phyllodocida","Tomopteridae",NA,"Tomopteris",NA,NA,"itis",FALSE,TRUE,FALSE,FALSE
+"Triglops murrayi","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Scorpaeniformes","Cottidae",NA,"Triglops","Triglops murrayi","167375","itis",FALSE,FALSE,FALSE,TRUE
+"Triticella pedicellata","Animalia","Bilateria","Protostomia","Bryozoa",NA,NA,NA,"Gymnolaemata",NA,"Ctenostomata","Triticellidae",NA,"Triticella","Triticella pedicellata","155591","itis",TRUE,FALSE,FALSE,FALSE
+"Tubularia indivisa","Animalia","Radiata",NA,"Cnidaria","Medusozoa",NA,NA,"Hydrozoa",NA,"Anthoathecatae","Tubulariidae",NA,"Tubularia","Tubularia indivisa","48919","itis",TRUE,FALSE,FALSE,FALSE
+"Tursiops truncatus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Tetrapoda","Mammalia",NA,"Cetacea","Delphinidae",NA,"Tursiops","Tursiops truncatus","180426","itis",FALSE,FALSE,TRUE,FALSE
+"Urophycis chuss","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Phycinae","Urophycis","Urophycis chuss","164730","itis",TRUE,FALSE,TRUE,TRUE
+"Urophycis tenuis","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Paracanthopterygii","Gadiformes","Gadidae","Phycinae","Urophycis","Urophycis tenuis","164732","itis",TRUE,FALSE,TRUE,TRUE
+"Yoldiella frigida","Animalia","Bilateria","Protostomia","Mollusca",NA,NA,NA,"Bivalvia",NA,"Nuculoida","Yoldiidae",NA,"Yoldiella","Yoldiella frigida","79289","itis",TRUE,FALSE,FALSE,FALSE
+"Zoarces americanus","Animalia","Bilateria","Deuterostomia","Chordata","Vertebrata","Gnathostomata","Actinopterygii","Teleostei","Acanthopterygii","Perciformes","Zoarcidae",NA,"Zoarces","Zoarces americanus","630979","itis",TRUE,FALSE,TRUE,TRUE
+"Amphicorina ascidicola","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,"Sabellida","Sabellidae",NA,"Amphicorina","Amphicorina ascidicola","6785213","gbif",FALSE,TRUE,FALSE,FALSE
+"Anoecia fulviabdominalis","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Insecta",NA,"Hemiptera","Aphididae",NA,"Anoecia","Anoecia fulviabdominalis","2076113","gbif",TRUE,FALSE,FALSE,FALSE
+"Arrenoseius","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Arachnida",NA,"Mesostigmata","Phytoseiidae",NA,"Arrenoseius",NA,"2187630","gbif",FALSE,TRUE,FALSE,FALSE
+"Bucculatrix ainsliella","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Insecta",NA,"Lepidoptera","Bucculatricidae",NA,"Bucculatrix","Bucculatrix ainsliella","1751299","gbif",TRUE,FALSE,FALSE,FALSE
+"Dermatophagoides","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Arachnida",NA,"Sarcoptiformes","Pyroglyphidae",NA,"Dermatophagoides",NA,"2181957","gbif",TRUE,FALSE,FALSE,FALSE
+"Epizoanthus arenaceus","Animalia",NA,NA,"Cnidaria",NA,NA,NA,"Anthozoa",NA,"Zoantharia","Epizoanthidae",NA,"Epizoanthus","Epizoanthus arenaceus","2258049","gbif",TRUE,FALSE,FALSE,FALSE
+"Eurypon clavigerum","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Axinellida","Raspailiidae",NA,"Eurypon","Eurypon clavigerum","2243812","gbif",TRUE,FALSE,FALSE,FALSE
+"Fulvia mutica","Animalia",NA,NA,"Mollusca",NA,NA,NA,"Bivalvia",NA,"Cardiida","Cardiidae",NA,"Fulvia","Fulvia mutica","5729188","gbif",FALSE,TRUE,FALSE,FALSE
+"Halichondria coerulea","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Suberitida","Halichondriidae",NA,"Halichondria","Halichondria coerulea","2249998","gbif",TRUE,FALSE,FALSE,FALSE
+"Halocynthia roretzi","Animalia",NA,NA,"Chordata",NA,NA,NA,"Ascidiacea",NA,"Stolidobranchia","Pyuridae",NA,"Halocynthia","Halocynthia roretzi","2331879","gbif",FALSE,TRUE,FALSE,FALSE
+"Leaena ebranchiata","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Terebellidae",NA,"Leaena","Leaena ebranchiata","5716210","gbif",TRUE,FALSE,FALSE,FALSE
+"Orfelia nemoralis","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Insecta",NA,"Diptera","Keroplatidae",NA,"Orfelia","Orfelia nemoralis","1564638","gbif",TRUE,FALSE,FALSE,FALSE
+"Oscarella balibaloi","Animalia",NA,NA,"Porifera",NA,NA,NA,"Homoscleromorpha",NA,"Homosclerophorida","Oscarellidae",NA,"Oscarella","Oscarella balibaloi","5964035","gbif",TRUE,FALSE,FALSE,FALSE
+"Oscarella viridis","Animalia",NA,NA,"Porifera",NA,NA,NA,"Homoscleromorpha",NA,"Homosclerophorida","Oscarellidae",NA,"Oscarella","Oscarella viridis","2244601","gbif",TRUE,FALSE,FALSE,FALSE
+"Parvicirrus dubius","Animalia",NA,NA,"Nemertea",NA,NA,NA,"Pilidiophora",NA,"Heteronemertea","Lineidae",NA,"Parvicirrus","Parvicirrus dubius","2508702","gbif",TRUE,FALSE,FALSE,FALSE
+"Polygordius jouinae","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Polygordiidae",NA,"Polygordius","Polygordius jouinae","4308144","gbif",TRUE,FALSE,FALSE,FALSE
+"Polymastia bartletti","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Polymastiida","Polymastiidae",NA,"Polymastia","Polymastia bartletti","2251438","gbif",TRUE,FALSE,FALSE,FALSE
+"Polyommatus nivescens","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Insecta",NA,"Lepidoptera","Lycaenidae",NA,"Polyommatus","Polyommatus nivescens","5772702","gbif",TRUE,FALSE,FALSE,FALSE
+"Proclea malmgreni","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Terebellidae",NA,"Proclea","Proclea malmgreni","2325218","gbif",TRUE,FALSE,FALSE,FALSE
+"Protosuberites denhartogi","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Suberitida","Suberitidae",NA,"Protosuberites","Protosuberites denhartogi","2251308","gbif",TRUE,FALSE,FALSE,FALSE
+"Protosuberites mereui","Animalia",NA,NA,"Porifera",NA,NA,NA,"Demospongiae",NA,"Suberitida","Suberitidae",NA,"Protosuberites","Protosuberites mereui","9220602","gbif",TRUE,FALSE,FALSE,FALSE
+"Scambicornus","Animalia",NA,NA,"Arthropoda",NA,NA,NA,"Hexanauplia",NA,"Cyclopoida","Synapticolidae",NA,"Scambicornus",NA,"4322727","gbif",FALSE,TRUE,FALSE,FALSE
+"Spiophanes kroyeri","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Spionidae",NA,"Spiophanes","Spiophanes kroyeri","2321061","gbif",TRUE,FALSE,FALSE,FALSE
+"Terebellides gracilis","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Trichobranchidae",NA,"Terebellides","Terebellides gracilis","2326251","gbif",TRUE,FALSE,FALSE,FALSE
+"Terebellides stroemii","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Trichobranchidae",NA,"Terebellides","Terebellides stroemii","2326250","gbif",TRUE,TRUE,FALSE,FALSE
+"Terebellides williamsae","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Trichobranchidae",NA,"Terebellides","Terebellides gracilis","2326251","gbif",TRUE,FALSE,FALSE,FALSE
+"Ziminella salmonacea","Animalia",NA,NA,"Mollusca",NA,NA,NA,"Gastropoda",NA,"Nudibranchia","Paracoryphellidae",NA,"Ziminella","Ziminella salmonacea","9575123","gbif",TRUE,FALSE,FALSE,FALSE
+"Euclymeninae","Animalia",NA,NA,"Annelida",NA,NA,NA,"Polychaeta",NA,NA,"Maldanidae","Euclymeninae",NA,NA,NA,"worms",TRUE,FALSE,FALSE,FALSE
