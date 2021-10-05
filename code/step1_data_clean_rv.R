@@ -475,19 +475,25 @@ ggsave("inst/2020_edna_survey.png",p1,width=6,height=6,units="in",dpi=300)
  count_wide_all <- data_reformat%>%
                     dplyr::select(-c(std_wgt,vert))%>%
                     spread(key=species_id,value=std_count,fill=NA)%>%
-                    column_to_rownames('SETNO')
+                    left_join(output_merged%>%dplyr::select(setno,edna_sample_name)%>%rename(SETNO=setno))%>% #match up to the edna sample names
+                    column_to_rownames('edna_sample_name')%>%
+                    dplyr::select(-SETNO)
  
  count_wide_verts <- data_reformat%>%
                      filter(vert)%>%
                      dplyr::select(-c(std_wgt,vert))%>%
                      spread(key=species_id,value=std_count,fill=NA)%>%
-                     column_to_rownames('SETNO')
+                     left_join(output_merged%>%dplyr::select(setno,edna_sample_name)%>%rename(SETNO=setno))%>% #match up to the edna sample names
+                     column_to_rownames('edna_sample_name')%>%
+                     dplyr::select(-SETNO)
    
  count_wide_inverts <- data_reformat%>%
                        filter(!vert)%>%
                        dplyr::select(-c(std_wgt,vert))%>%
                        spread(key=species_id,value=std_count,fill=NA)%>%
-                       column_to_rownames('SETNO')
+                       left_join(output_merged%>%dplyr::select(setno,edna_sample_name)%>%rename(SETNO=setno))%>% #match up to the edna sample names
+                       column_to_rownames('edna_sample_name')%>%
+                       dplyr::select(-SETNO)
   
  #save outputs
      save(count_wide_all,file="data/all_species_wide.RData")
