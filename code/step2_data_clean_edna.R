@@ -166,9 +166,27 @@ edna_flat <- do.call("rbind", edna_taxonomy)%>%
     
 ### knit it all together
     master_edna <- rbind(edna_format,edna_format2,edna_format3)%>%
-                   rename(taxID = TSN) #rename because TSN is only relevant to itis. 
+                   rename(taxID = TSN)%>% #rename because TSN is only relevant to itis. 
+                   mutate(CO1 = NA, #place holders for a logical identifying if this marker identified this species. 
+                          m18s = NA, #m for marker because you can't start a variable name with a number
+                          m12s = NA,
+                          m16s = NA)
     
-## do a quick check in worms to see if we can flag the non-marine animals
+    #now id what markers found what
+    for(i in master_edna$call){
+      marker <- edna_species%>%filter(call==i)%>%pull(marker)
+      
+      for(j in c("CO1","m12s","m16s","m18s")){ # 
+      
+      master_edna[master_edna$call == i,j] <- ifelse(gsub("m","",j) %in% marker,TRUE,FALSE)
+      
+      } #end j 'marker' in i 'call
+      
+      rm(marker)
+    } #end i 'call'
+    
+## do a quick check in worms to see if we can flag the non-marine animals -- note that because worms gives back such variable taxonomic rankings, I first completed the itis taxonomy but this can be used as a 
+    ## complete surrogate to the first ones. 
     marine_check <- classification(master_edna$call,"worms") #this requires some manual choice s of the accepted names
     
     marine_check_flat <- do.call("rbind", marine_check)%>%
@@ -182,7 +200,26 @@ edna_flat <- do.call("rbind", edna_taxonomy)%>%
       group_by(call)%>%
       spread(rank,name)%>%
       ungroup()%>%
-      mutate(db="worms")
+      mutate(db="worms",
+             CO1 = NA, #place holders for a logical identifying if this marker identified this species. 
+             m18s = NA, #m for marker because you can't start a variable name with a number
+             m12s = NA,
+             m16s = NA)
+
+
+    #now id what markers found what
+    for(i in marine_edna_format$call){
+      
+      marker <- edna_species%>%filter(call==i)%>%pull(marker)
+      
+      for(j in c("CO1","m12s","m16s","m18s")){ # 
+        
+        marine_edna_format[marine_edna_format$call == i,j] <- ifelse(gsub("m","",j) %in% marker,TRUE,FALSE)
+        
+      } #end j 'marker' in i 'call
+      
+      rm(marker)
+    } #end i 'call'
     
 ## Save the outputs
   #save.image("data/step2_data_clean_edna.R") #only do this when you need to
