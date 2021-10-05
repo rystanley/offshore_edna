@@ -471,7 +471,7 @@ ggsave("inst/2020_edna_survey.png",p1,width=6,height=6,units="in",dpi=300)
                    filter(!is.na(species_id)) %>%#pre-excluded, non-taxonomic items (eg PURSE LITTLE SKATE,SKATE UNID. EGGS, WHELK EGGS (NS), ORGANIC DEBRIS, KNOTTED WRACK,FIRST UNIDENTIFIED PER SET,STONES AND ROCKS)
                    dplyr::select(-c(CODE))
                   
-  
+  ##by counts
  count_wide_all <- data_reformat%>%
                     dplyr::select(-c(std_wgt,vert))%>%
                     spread(key=species_id,value=std_count,fill=NA)%>%
@@ -494,11 +494,48 @@ ggsave("inst/2020_edna_survey.png",p1,width=6,height=6,units="in",dpi=300)
                        left_join(output_merged%>%dplyr::select(setno,edna_sample_name)%>%rename(SETNO=setno))%>% #match up to the edna sample names
                        column_to_rownames('edna_sample_name')%>%
                        dplyr::select(-SETNO)
+ 
+ #by weights 
+ wgt_wide_all <- data_reformat%>%
+                 dplyr::select(-c(std_count,vert))%>%
+                 spread(key=species_id,value=std_wgt,fill=NA)%>%
+                 left_join(output_merged%>%dplyr::select(setno,edna_sample_name)%>%rename(SETNO=setno))%>% #match up to the edna sample names
+                 column_to_rownames('edna_sample_name')%>%
+                 dplyr::select(-SETNO)
+               
+ wgt_wide_verts <- data_reformat%>%
+                   filter(vert)%>%
+                   dplyr::select(-c(std_count,vert))%>%
+                   spread(key=species_id,value=std_wgt,fill=NA)%>%
+                   left_join(output_merged%>%dplyr::select(setno,edna_sample_name)%>%rename(SETNO=setno))%>% #match up to the edna sample names
+                   column_to_rownames('edna_sample_name')%>%
+                   dplyr::select(-SETNO)
+ 
+ wgt_wide_inverts <- data_reformat%>%
+                     filter(!vert)%>%
+                     dplyr::select(-c(std_count,vert))%>%
+                     spread(key=species_id,value=std_wgt,fill=NA)%>%
+                     left_join(output_merged%>%dplyr::select(setno,edna_sample_name)%>%rename(SETNO=setno))%>% #match up to the edna sample names
+                     column_to_rownames('edna_sample_name')%>%
+                     dplyr::select(-SETNO)
   
  #save outputs
-     save(count_wide_all,file="data/all_species_wide.RData")
-     save(count_wide_verts,file="data/verts_wide.RData")
-     save(count_wide_inverts,file="data/inverts_wide.RData")
+     save(count_wide_all,file="data/all_species_count_wide.RData") #standardized counts
+     save(count_wide_verts,file="data/verts_count_wide.RData")
+     save(count_wide_inverts,file="data/inverts_count_wide.RData")
+     
+     save(wgt_wide_all,file="data/all_species_wgt_wide.RData") #standardized weights
+     save(wgt_wide_verts,file="data/verts_wgt_wide.RData")
+     save(wgt_wide_inverts,file="data/inverts_wgt_wide.RData")
+     
+     write.csv(count_wide_all,file="data/all_species_count_wide.csv") #standardized counts
+     write.csv(count_wide_verts,file="data/verts_count_wide.csv")
+     write.csv(count_wide_inverts,file="data/inverts_count_wide.csv")
+     
+     write.csv(wgt_wide_all,file="data/all_species_wgt_wide.csv") #standardized weights
+     write.csv(wgt_wide_verts,file="data/verts_wgt_wide.csv")
+     write.csv(wgt_wide_inverts,file="data/inverts_wgt_wide.csv")
+    
 
 ##now investigate which species are the most numerate -------------
  
