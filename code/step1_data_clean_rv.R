@@ -5,6 +5,7 @@ library(sf)
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+library(tibble)
 library(rnaturalearth)
 library(rnaturalearthhires)
 library(lubridate)
@@ -70,7 +71,7 @@ bioclass <- read_sf("data/Shapefiles/MaritimesBioclassificationPolygons.shp")%>%
 
 #st_write(shelfbreak,"data/Countour_250.shp")
 
-shelfbreak=read_sf("data/Countour_250.shp")
+shelfbreak=read_sf("data/Shapefiles/Countour_250.shp")
 
 #Create basemap intersected with the bounding box. 
 basemap_atlantic <- rbind(ne_states(country = "Canada",returnclass = "sf")%>%
@@ -134,7 +135,7 @@ hydros <- edna_set_info%>%filter(!grepl("LAB",eDNA_Sample_Name),
                   pull(SurveyID)%>%as.numeric()
 
 #this is the data from the RV survey that was provided post-survey. The 'HYDRO' here is the bottom water sample that corresponds to that set
-sets_fix <- read.csv("data/eDNA/eDNA_Trawl_Catch.csv") 
+sets_fix <- read.csv("data/eDNA_Trawl_Catch.csv") 
 
 
 #these are 'orphaned' eDNA samples that don't correspond to a trawl set based on the Hydro (SampleID) recorded on the bottle for the data provided post-survey
@@ -350,7 +351,7 @@ ggsave("inst/2020_edna_survey.png",p1,width=6,height=6,units="in",dpi=300)
   species_df <- id_names%>%
                 left_join(.,taxInfo)
   
-  #now deal with the problem species individually since there are only 6
+  #now deal with the problem species that were not keyed out. There aren't that many of them, so it is easier to hard code
   
   #American Fourspot Flounder - itis can't ID the species, so we will pull the data for the genus and then manually add the species
       temp <- classification("HIPPOGLOSSINA",db="itis")%>%.[[1]]%>%data.frame()%>%dplyr::select(rank,name)%>%spread(rank,name)%>%mutate(TSN = NA,species="Hippoglossina oblonga")
@@ -407,12 +408,201 @@ ggsave("inst/2020_edna_survey.png",p1,width=6,height=6,units="in",dpi=300)
         
         species_df[problem_species%>%filter(grepl("VAZELLA POURTALESI",SPEC))%>%pull(SPEC)==species_df$SPEC,colmatch] <- temp[,colmatch]    
 
-
+     #TUNICATA S.P. - itis only keys out the subphylum and not the kingdom/phylum
+        temp <- classification("146420",db="worms")%>%.[[1]]%>%data.frame()%>%dplyr::select(rank,name)%>%spread(rank,name)
+        colnames(temp) <- tolower(colnames(temp))
+        temp$TSN <- NA
+        
+        colmatch <- intersect(colnames(taxInfo),tolower(colnames(temp))) 
+        
+        species_df["TUNICATA S.P."==species_df$SPEC,colmatch] <- temp[,colmatch] 
+        
+      #PYCNOGONUM LITTORALE - marine amphipod
+        temp <- classification("239867",db="worms")%>%.[[1]]%>%data.frame()%>%dplyr::select(rank,name)%>%spread(rank,name)
+        colnames(temp) <- tolower(colnames(temp))
+        temp$TSN <- NA
+        
+        colmatch <- intersect(colnames(taxInfo),tolower(colnames(temp))) 
+        
+        species_df["PYCNOGONUM LITTORALE"==species_df$SPEC,colmatch] <- temp[,colmatch] 
+        
+      #Paguridae (hermit crabs) aren't keyed out with the TSN number nor the APHIAID with worms. but the name search in itis works to the family
+      #Paguridae that corresponds to the Paguridae F. in the RV survey data. 
+      
+        temp <- classification("Paguridae",db="itis")%>%.[[1]]%>%data.frame()%>%dplyr::select(rank,name)%>%spread(rank,name)
+        colnames(temp) <- tolower(colnames(temp))
+        temp$TSN <- NA
+        
+        colmatch <- intersect(colnames(taxInfo),tolower(colnames(temp))) 
+        
+        species_df["PAGURIDAE F."==species_df$SPEC,colmatch] <- temp[,colmatch] 
+        
+  #unique ID where it will get the scientific name from the RV survey if it was not key'ed to species by the itis classification
+        species_df$species_id <- species_df$species
+        
+        for(i in species_df[is.na(species_df$species),"CODE"]){
+          
+          temp <- filter(species_df,CODE == i)%>%dplyr::select(all_of(PhyloNames))%>%gather()
+          
+          id <-  temp[rev(which(!is.na(temp$value)))[1],"value"] #first taxonomic class back from 'species' that has information 
+          
+          species_df[species_df$CODE == i,"species_id"] <- id #integrate into the data
+          
+        }
+        
+    #make a column indicating 'vertebrates' and 'invertebrates' using the phylum 'Chordata' - this is a logical 'are you a vertebrate' which is useful for indexing
+    species_df <- species_df%>%mutate(vert=ifelse(phylum == "Chordata",TRUE,FALSE))
+    
 #save outputs
  write.csv(species_df%>%dplyr::select(-c(ID_SRC,COMMENTS,TSN_SPELLING,TSN_SRC,TSN_SVC,APHIAID_SPELLING,
                                          APHIAID_DEFINITIVE,APHIAID_SVC,APHIAID_MULTI_FLAG,TSN_MULTI_FLAG)),"data/rv_identified.csv",row.names=FALSE)
 
  save(species_df,file="data/rv_species_identification.RData")
+ 
 
+## Format data in sample by species format where sample is the SETNO that be linked back in later------
+ 
+ data_reformat <- rvdat%>%
+                   filter(SETNO %in% merged_df$setno)%>%
+                   mutate(std_count = TOTNO*1.75/DIST, #standardized to a set tow distance of 1.75 nm
+                          std_wgt = TOTWGT*1.75/DIST)%>%
+                   dplyr::select(SETNO,CODE,std_count,std_wgt)%>%
+                   left_join(.,species_df%>%dplyr::select(CODE,species_id,vert))%>%
+                   filter(!is.na(species_id)) %>%#pre-excluded, non-taxonomic items (eg PURSE LITTLE SKATE,SKATE UNID. EGGS, WHELK EGGS (NS), ORGANIC DEBRIS, KNOTTED WRACK,FIRST UNIDENTIFIED PER SET,STONES AND ROCKS)
+                   dplyr::select(-c(CODE))
+                  
+  
+ count_wide_all <- data_reformat%>%
+                    dplyr::select(-c(std_wgt,vert))%>%
+                    spread(key=species_id,value=std_count,fill=NA)%>%
+                    column_to_rownames('SETNO')
+ 
+ count_wide_verts <- data_reformat%>%
+                     filter(vert)%>%
+                     dplyr::select(-c(std_wgt,vert))%>%
+                     spread(key=species_id,value=std_count,fill=NA)%>%
+                     column_to_rownames('SETNO')
+   
+ count_wide_inverts <- data_reformat%>%
+                       filter(!vert)%>%
+                       dplyr::select(-c(std_wgt,vert))%>%
+                       spread(key=species_id,value=std_count,fill=NA)%>%
+                       column_to_rownames('SETNO')
+  
+ #save outputs
+     save(count_wide_all,file="data/all_species_wide.RData")
+     save(count_wide_verts,file="data/verts_wide.RData")
+     save(count_wide_inverts,file="data/inverts_wide.RData")
+
+##now investigate which species are the most numerate -------------
+ 
+ species_select <- rvdat%>%
+                   filter(CODE %in% species_df$CODE,SETNO %in% merged_df$setno)%>%
+                   mutate(std_count = TOTNO*1.75/DIST, #standardized to a set tow distance of 1.75 nm
+                          std_wgt = TOTWGT*1.75/DIST)%>%
+                   group_by(CODE)%>%
+                   summarise(num_sets=n(), #number of stations
+                             count=sum(std_count),
+                             catch=sum(std_wgt))%>%
+                  ungroup()%>%
+                  data.frame()%>%
+                  left_join(.,species_df%>%dplyr::select(-c(ID_SRC,COMMENTS,TSN_SPELLING,TSN_SRC,TSN_SVC,APHIAID_SPELLING,
+                                                           APHIAID_DEFINITIVE,APHIAID_SVC,APHIAID_MULTI_FLAG,TSN_MULTI_FLAG)))%>%
+                  mutate(vert_invert=ifelse(phylum == "Chordata","Vertebrate","Invertebrate"))
+
+ #unique ID where it will get the scientific name from the RV survey if it was not key'ed to species by the itis classification
+ 
+ species_select$species_id <- species_select$species
+ 
+ for(i in species_select[is.na(species_select$species),"CODE"]){
+   
+   temp <- filter(species_select,CODE == i)%>%dplyr::select(all_of(PhyloNames))%>%gather()
+   
+   id <-  temp[rev(which(!is.na(temp$value)))[1],"value"] #first taxonomic class back from 'species' that has information 
+   
+   species_select[species_select$CODE == i,"species_id"] <- id #integrate into the data
+   
+  }
+ 
+ #change the plotting labels order for ggplot
+ species_select <- species_select%>%
+                    mutate(species_cnt_ord = factor(species_id,levels=species_select%>%arrange(count)%>%pull(species_id)),
+                           species_catch_ord = factor(species_id,levels=species_select%>%arrange(catch)%>%pull(species_id)),
+                           num_sets_ord = factor(species_id,levels=species_select%>%arrange(num_sets)%>%pull(species_id)))
+  
+ p2 <- ggplot()+
+   geom_bar(stat="identity",data=species_select,aes(y=count,x=species_cnt_ord))+
+   facet_wrap(~vert_invert,scales="free_y",ncol=1)+
+   coord_flip()+
+   theme_bw()+
+   scale_y_log10()+
+   labs(y=expression(paste("Log"[10]," sum standardized count",sep=" ")),
+        x="")+
+   theme(strip.background = element_rect(fill="white"),
+         axis.text.y = element_text(size=6));p2
+ 
+ggsave("output/species_counts_rv.png",p2,width=5,height=8,units="in",dpi=300) 
+
+#just the top 10 for verts and inverts
+
+top10_count <- species_select%>%
+         arrange(-count)%>%
+         group_by(vert_invert)%>%
+         slice(1:10)%>%
+         ungroup()%>%
+         data.frame()
+
+#by overall count summed across sets
+    p3 <- ggplot()+
+      geom_bar(stat="identity",data=species_select%>%filter(CODE %in% top10_count$CODE),aes(y=count,x=species_cnt_ord))+
+      facet_wrap(~vert_invert,scales="free_y",ncol=1)+
+      coord_flip()+
+      theme_bw()+
+      scale_y_log10()+
+      labs(y=expression(paste("Log"[10]," sum standardized count",sep=" ")),
+           x="")+
+      theme(strip.background = element_rect(fill="white"),
+            axis.text.y = element_text(size=10));p3
+    
+    ggsave("output/top10_count.png",p3,width=5,height=7,units="in",dpi=300)
+
+#by number of sets
+    top10_sets <- species_select%>%
+      arrange(-num_sets)%>%
+      group_by(vert_invert)%>%
+      slice(1:10)%>%
+      ungroup()%>%
+      data.frame()
+     
+    p4 <- ggplot()+
+      geom_bar(stat="identity",data=species_select%>%filter(CODE %in% top10_sets$CODE),aes(y=num_sets,x=num_sets_ord))+
+      facet_wrap(~vert_invert,scales="free_y",ncol=1)+
+      coord_flip()+
+      theme_bw()+
+      labs(y="Total # sets",x="")+
+      theme(strip.background = element_rect(fill="white"),
+            axis.text.y = element_text(size=10));p4
+    
+    ggsave("output/top10_num_sets.png",p4,width=5,height=7,units="in",dpi=300)
+
+#By abundance 
+    top10_abund <- species_select%>%
+      arrange(-catch)%>%
+      group_by(vert_invert)%>%
+      slice(1:10)%>%
+      ungroup()%>%
+      data.frame()
+    
+    p5 <- ggplot()+
+      geom_bar(stat="identity",data=species_select%>%filter(CODE %in% top10_abund$CODE),aes(y=catch,x=species_catch_ord ))+
+      facet_wrap(~vert_invert,scales="free_y",ncol=1)+
+      coord_flip()+
+      theme_bw()+
+      labs(y=expression(paste("Log"[10]," sum standardized abundance",sep=" ")),
+           x="")+
+      theme(strip.background = element_rect(fill="white"),
+            axis.text.y = element_text(size=10));p5
+    
+    ggsave("output/top10_num_sets.png",p4,width=5,height=7,units="in",dpi=300)
 
 
