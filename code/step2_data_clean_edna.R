@@ -63,7 +63,7 @@ edna_flat <- do.call("rbind", edna_taxonomy)%>%
         
         edna_itis <- rbind(edna_itis,temp)
         
-      }
+      } # change stuff
 
   #now reformat the eDNA data for the species that have info
  
