@@ -47,9 +47,11 @@ p_verts_count_16S_2m <- ggplot(lme_verts_count_16S_pd_2m, aes(x, predicted)) +
   geom_line() + geom_point() +
   geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1) + main_theme +
   labs(x=paste("trawling | lg(verts_count)"),
-       y=paste("16S | lg(reads + 1)")) + annotate(geom="text", x=0.42, y=6, label="(a) 16S") +
+       y=paste("16S | lg(reads + 1)")) + annotate(geom="text", x=0.42, y=6, label="16S reads number vs verts_count") +
   geom_point(data=verts_count_16S_2m, aes(x=log_verts_count, y=log_eDNA_16S), color="blue")
 
 p_verts_count_16S_2m
 
+cor(verts_count_16S_2m$log_eDNA_16S, verts_count_16S_2m$log_verts_count, method="spearman")
+cor(verts_count_16S_2m$log_eDNA_16S, verts_count_16S_2m$log_verts_count, method="pearson")
 
