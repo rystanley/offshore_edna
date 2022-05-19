@@ -141,6 +141,9 @@ sample_map <- ggplot()+
               theme(axis.text = element_blank(),
                     axis.ticks = element_blank())
 
+##Note that this map is assembled using inset_mat, sample_map and sample_map_legend in Adobe Illustrator. I am not tracking the adobe file because it is large but can make it available via 
+##email. The output from the adobe file - Figure_1-01.png - is tracked. 
+
 ggsave("output/sample_map.png",sample_map+theme(legend.position = "none"),height=12,width=12,units="in",dpi=600)
 ggsave("output/sample_map_legend.png",sample_map+theme(legend.box.background = element_rect(colour = "black"),
                                                        legend.title = element_blank()),height=6,width=6,units="in",dpi=600)
