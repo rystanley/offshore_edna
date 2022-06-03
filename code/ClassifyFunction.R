@@ -1,6 +1,5 @@
-#Function to get basic taxonomic information
 
-Classify <- function(x,input=T,rows=1,db="itis",db_check=FALSE){
+Classify <- function(x,input=T,rows=1,db="itis",db_check=FALSE,return_id=TRUE){
   
   #x - is the latin name of the species of interest. This can be down to the lowest taxonomic ID. If you are entering a higher 
   #    taxonomic order, you can specify with a letter. (e.g., Decapoda is an Order so you can enter Decapoda O.). The letter will
@@ -21,32 +20,24 @@ Classify <- function(x,input=T,rows=1,db="itis",db_check=FALSE){
   input_x <- x #before any modifications
   
   #the information we want returned - fixed for now.
-  PhyloNames <- c("kingdom","phylum","subphylum","class","order","family","genus","species") #Info we want
+  PhyloNames <- c("kingdom","subkingdom","infrakingdom","phylum","subphylum","infraphylum","superclass",
+                  "class","superorder","order","family","subfamily","genus","species")      
   
   #databases we want to check - fixed for now. 
   dbs <- c("itis","worms","gbif") #note that the 'bold' database API doesn't seem to work properly with 'classification' so it is note used.
   
-  #taxID for the trawl they will sometimes id things to a higher taxonomic order with a trailing letter indicating 'family (F.),'Genus (G.)' 'Order (O.)' etc
-  #These need to be removed but can also be used to validate
-  
-  taxID = NA
-  
-  if(grepl(" P.",x,fixed=T)){x=gsub(" P.","",x,fixed=T)%>%trimws;taxID="phylum"}
-  if(grepl(" C.",x,fixed=T)){x=gsub(" C.","",x,fixed=T)%>%trimws;taxID="class"}
-  if(grepl(" O.",x,fixed=T)){x=gsub(" O.","",x,fixed=T)%>%trimws;taxID="order"}
-  if(grepl(" F.",x,fixed=T)){x=gsub(" F.","",x,fixed=T)%>%trimws;taxID="family"}
-  if(grepl(" G.",x,fixed=T)){x=gsub(" G.","",x,fixed=T)%>%trimws;taxID="genus"}
-  
-  #STEP 1 - 
+   #STEP 1 - 
   
   #Run the taxize function
-  output <- suppressMessages(taxize::classification(x,db=db,return_id=FALSE,rows=rows)) #default is 1 this option will only grab the first result from the database pull. 
+  output <- suppressMessages(taxize::classification(x,db=db,return_id=return_id,rows=rows)) #default is 1 this option will only grab the first result from the database pull. 
   output2 <- as.data.frame(output[[1]],stringsAsfactors=F) 
+  
+  if(return_id){id <- output2[nrow(output2),"id"]}
   
   #STEP 2 check the outputs to see if anything was returned and format
   if(!is.na(output[x])){
     output3 <- as.data.frame(t(output2$name),stringsAsFactors = F)
-    names(output3) <- output2$rank
+    names(output3) <- tolower(output2$rank)
     PhyloDiff <- intersect(PhyloNames,names(output3)) #what info is missing. Some databases don't return all the same info
     
     if(length(PhyloDiff)<length(PhyloNames)){
@@ -68,8 +59,8 @@ Classify <- function(x,input=T,rows=1,db="itis",db_check=FALSE){
       
       
     } else{output3 <- output3[,PhyloNames]} 
-      
-   
+    
+    
   } #end 
   
   #If nothing is returned either assign NAs or do a check of other databases
@@ -104,29 +95,66 @@ Classify <- function(x,input=T,rows=1,db="itis",db_check=FALSE){
       if(sum(db_count$count == max(db_count$count)) > 1){db_rep  <- db_count[which.max(db_count$count)[1],"db"]}else{db_rep <-db_count[which.max(db_count$count),"db"]}
       
       db_new <- db_comp%>%filter(db==as.character(db_rep))
-    
+      
       output3 <- data.frame(kingdom=NA,phylum=NA,subphylum=NA,class=NA,order=NA,family=NA,genus=NA,species=NA)
-    
+      
       for(i in db_new$rank){output3[1,i]=db_new[db_new$rank == i,"name"]} #fill in the information available 
       
       db=db_rep #save for the output
       
-  } else {output3 <- data.frame(kingdom=NA,phylum=NA,subphylum=NA,class=NA,order=NA,family=NA,genus=NA,species=NA)}} #no alternate check
- 
+    } else {output3 <- data.frame(kingdom=NA,subkingdom=NA,infrakingdom=NA,phylum=NA,subphylum=NA,infraphylum=NA,superclass=NA,
+                                    class=NA,superorder=NA,order=NA,family=NA,subfamily=NA,genus=NA,species=NA)}} #no alternate check
+  
   
   #if we want to add the input name for merging later (default = T)
   if(input){output3$input <- input_x} 
-  
-  #do taxonomic check -- this got too tangly. Not sure it is needed anyway
-  #if(!is.na(taxID)){if(is.na(tolower(output3[,taxID]))){message("High taxonomic classification check failed")}else{(if(tolower(output3[,taxID]) == tolower(x)) {message("Higher taxonomic classification check passed")}else{message("High taxonomic classification check failed")}
-  #output3$check <- ifelse(tolower(output3[,taxID]) == tolower(x) & !is.na(tolower(output3[,taxID])),"Passed","Failed")} else {output3$check = NA}
+  if(return_id){output3$id <- id}
   
   #add the database used
   output3$db <- db
-    
+  
   #return the dataframe row
   return(output3) 
   # 
 }
 
+name_extract <- function(x){
+  
+  if(sum(is.na(x))==0) {return(x[length(x)])}
+  
+  if(!sum(is.na(x))==0) {
+  
+  ind <- which(!is.na(x)) #which taxonomies have information
+  
+  return(x[ind[length(ind)]]) #return the last one
+  
+  }
+  
+}
+
+synonym_check <- function(x,db,return_tsn = FALSE){
+  
+  syn_check = "hold"
+  
+  if(db=="itis"){
+    
+    syn_check <- taxize::get_tsn(x,accepted=TRUE)%>%data.frame()
+    accepted_name <- classification(syn_check$ids,db=db)[[1]]%>%data.frame()%>%slice(n())%>%pull(name)
+    tsn_id <- syn_check%>%pull(ids)%>%as.numeric()
+  
+  }
+  
+  if(length(syn_check)>1 & !return_tsn) {return(accepted_name)} 
+  if(length(syn_check)>1 & return_tsn)  {return(tsn_id)} 
+  if(length(syn_check) == 1) {return(x)}
+  
+}
+
+taxID_extract <- function(x,db,name=FALSE){
+  
+  extract_tsn <- taxize::classification(x,db)[[1]]%>%data.frame()%>%slice(n()) #gets the last identification 
+  
+  if(name){return(extract_tsn$name)}else{return(as.numeric(extract_tsn$id))} #return the name or the tsn 
+  
+}
 
