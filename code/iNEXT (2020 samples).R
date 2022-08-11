@@ -86,6 +86,30 @@
       scale_colour_manual(values=plotcols)+
       labs(x="Number of sampling sites",y="Species Richness",fill="",col="")
     
+    #just the sample size rarefaction plot
+    plotdata <- plotdata%>%
+                mutate(type2 = ifelse(type=="Vertebrates","Fish",type))
+    
+    p2_solo <- ggplot()+
+              geom_ribbon(data=plotdata%>%filter(denominator == "Number of sampling sites"),aes(x=x,ymin=y.lwr,ymax=y.upr,fill=var),alpha=0.5)+
+              geom_line(data=plotdata%>%filter(denominator == "Number of sampling sites"),aes(x=x,y=y,col=var),lty=2,lwd=1.25)+
+              geom_line(data=filter(plotdata,method!="extrapolated",denominator == "Number of sampling sites"),aes(x=x,y=y,col=var),lwd=1.25)+
+              geom_point(data=filter(plotdata,method=="observed",denominator == "Number of sampling sites"),aes(x=x,y=y,fill=var),shape=21,size=4)+ #change in type to make it clearer.
+              theme_bw()+
+              facet_grid(type2~.,scales="free")+
+              theme(strip.background = element_rect(, colour = "black", fill = "white"),
+                    strip.text.x = element_text(colour = "black",size=14), 
+                    strip.text.y = element_text(colour = "black",size=14),
+                    axis.text = element_text(colour = "black",size=12),
+                    axis.title = element_text(colour = "black",size=12),
+                    legend.position="bottom")+
+              scale_y_continuous(expand=c(0,0.02))+
+              scale_fill_manual(values=plotcols)+ # to increase contrast
+              scale_colour_manual(values=plotcols)+
+              labs(x="Number of sampling sites",y="Species Richness",fill="",col="")
+    
+    ggsave("output/richness_sites.png",p2_solo,width=9,height=9,units="in",dpi=600)
+    
     p3 <- ggplot()+
       geom_ribbon(data=plotdata%>%filter(denominator == "Sample coverage"),aes(x=x,ymin=y.lwr,ymax=y.upr,fill=var),alpha=0.5)+
       geom_line(data=plotdata%>%filter(denominator == "Sample coverage"),aes(x=x,y=y,col=var),lty=2,lwd=1.25)+
