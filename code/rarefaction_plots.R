@@ -81,10 +81,10 @@ count_df <- taxdat_processed3%>%
 
 #12s primer
   plot_12s <- ggplot()+
-    geom_point(data=count_df%>%filter(depth>1,marker=="12s"),
-               aes(x=depth,y=mn,size=count),pch=21,col="black",show.legend=FALSE)+
     geom_line(data=taxdat_processed3%>%filter(!is.na(mn),marker=="12s"),
               aes(x=depth,y=mn,group=sample.id,col=factor(max),alpha=alpha),lwd=1.5,show.legend=FALSE)+
+    geom_point(data=count_df%>%filter(depth>1,marker=="12s"),
+               aes(x=depth,y=mn,size=count),pch=21,col="black",fill="white",show.legend=FALSE)+
     geom_point(data=count_df%>%filter(depth>1,marker=="12s"),
                aes(x=depth,y=mn,fill=factor(max),alpha=alpha,size=count),pch=21,col="black",show.legend=FALSE)+
     geom_point(aes(x=0,y=1),col="black",fill="white",pch=21,size=3)+
@@ -99,10 +99,10 @@ count_df <- taxdat_processed3%>%
           axis.title.y = element_blank())
 #16s primer
   plot_16s <- ggplot()+
-    geom_point(data=count_df%>%filter(depth>1,marker=="16s"),
-               aes(x=depth,y=mn,size=count),pch=21,col="black")+
     geom_line(data=taxdat_processed3%>%filter(!is.na(mn),marker=="16s"),
               aes(x=depth,y=mn,group=sample.id,col=factor(max),alpha=alpha),lwd=1.5,show.legend=FALSE)+
+    geom_point(data=count_df%>%filter(depth>1,marker=="16s"),
+               aes(x=depth,y=mn,size=count),pch=21,col="black",fill="white",show.legend=FALSE)+
     geom_point(data=count_df%>%filter(depth>1,marker=="16s"),
                aes(x=depth,y=mn,fill=factor(max),alpha=alpha,size=count),pch=21,col="black",show.legend=FALSE)+
     geom_point(aes(x=0,y=1),col="black",fill="white",pch=21,size=3)+
@@ -118,29 +118,41 @@ count_df <- taxdat_processed3%>%
 
 #CO1 primer
   plot_co1 <- ggplot()+
-    geom_point(data=count_df%>%filter(depth>1,marker=="CO1"),
-               aes(x=depth,y=mn,size=count),pch=21,col="black",show.legend=FALSE)+
     geom_line(data=taxdat_processed3%>%filter(!is.na(mn),marker=="CO1"),
               aes(x=depth,y=mn,group=sample.id,col=factor(max),alpha=alpha),lwd=1.5,show.legend=FALSE)+
     geom_point(data=count_df%>%filter(depth>1,marker=="CO1"),
+               aes(x=depth,y=mn,size=count),pch=21,col="black",fill="white",show.legend=FALSE)+
+    geom_point(data=count_df%>%filter(depth>1,marker=="CO1"),
                aes(x=depth,y=mn,fill=factor(max),alpha=alpha,size=count),pch=21,col="black",show.legend=FALSE)+
     geom_point(aes(x=0,y=1),col="black",fill="white",pch=21,size=3)+
-    labs(x="Sequencing depth",y="",size="# obs",title="C) CO1")+
+    labs(x="",y="",size="# obs",title="C) CO1")+
     theme_bw()+
     scale_y_continuous(breaks=seq(2,25,2))+
     scale_color_viridis(discrete=T,option="C")+
     scale_size_continuous(breaks=c(1,5,9,14),)+
     scale_fill_viridis(discrete=T,option="C")+
     theme(legend.position = "none",
-          axis.title.y = element_blank()) 
+          axis.title.y = element_blank(),
+          axis.title.x= element_blank()) 
   
   p_lab <- ggplot() + 
-            annotate(geom = "text", x = 1, y = 1, label = "Mean taxon richness", angle = 90) +
+            annotate(geom = "text", x = 1, y = 1, label = "Mean taxon richness", angle = 90,size = 6) +
             coord_cartesian(clip = "off")+
-            theme_void()
+            theme_void()+
+            theme()
+  
+  p_lab_bottom <- ggplot() + 
+    annotate(geom = "text", x = 1, y = 1, label = "Sequencing depth", ,size = 6) +
+    coord_cartesian(clip = "off")+
+    theme_void()+
+    theme()
 
 #combined into one plot 
-  combo_plot = p_lab + {(plot_12s+plot_16s+plot_co1+guide_area()) + plot_layout(nrow=2,guides="collect") & theme(legend.position="right")} + plot_layout(ncol=2,widths=c(0.1,1))
+  combo_plot = {{p_lab + {(plot_12s+plot_16s+plot_co1+guide_area()) + plot_layout(nrow=2,guides="collect") & theme(legend.position="right")} + plot_layout(ncol=2,widths=c(0.1,1))}} / 
+                p_lab_bottom + plot_layout(nrow=2,heights = c(1,0.1))
+  
+  # combo_plot =  {{(plot_12s+plot_16s+plot_co1+guide_area()) + plot_layout(nrow=2,guides="collect") & theme(legend.position="right")} / p_lab_bottom + plot_layout(nrow=2,heights = c(1,0.1))} | 
+  #               p_lab + plot_layout(ncol=2,widths = c(1,0.1))
 
 #save plot
-  ggsave("output/taxonrichness_seqdepth.png",combo_plot,width=7,height=6,units="in",dpi=300)
+  ggsave("output/taxonrichness_seqdepth.png",combo_plot,width=9,height=9,units="in",dpi=300)
