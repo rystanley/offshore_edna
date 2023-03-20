@@ -95,7 +95,6 @@ count_df <- taxdat_processed3%>%
     scale_size_continuous(breaks=c(1,5,9,14))+
     scale_fill_viridis(discrete=T,option="C")+
     theme(legend.position = "none",
-          axis.text.x = element_blank(),
           axis.title.x = element_blank(),
           axis.title.y = element_blank())
 #16s primer
@@ -107,15 +106,15 @@ count_df <- taxdat_processed3%>%
     geom_point(data=count_df%>%filter(depth>1,marker=="16s"),
                aes(x=depth,y=mn,fill=factor(max),alpha=alpha,size=count),pch=21,col="black",show.legend=FALSE)+
     geom_point(aes(x=0,y=1),col="black",fill="white",pch=21,size=3)+
-    labs(x="Sequencing depth",y="Mean taxon richness",size="# obs",title="B) 16s")+
+    labs(x="Sequencing depth",y="",size="# obs",title="B) 16s")+
     theme_bw()+
     scale_y_continuous(breaks=seq(2,15,2))+
     scale_color_viridis(discrete=T,option="C")+
     scale_size_continuous(breaks=c(1,5,9,14))+
     scale_fill_viridis(discrete=T,option="C")+
     theme(legend.position = "bottom",
-          axis.text.x = element_blank(),
-          axis.title.x = element_blank())
+          axis.title.x = element_blank(),
+          axis.title.y = element_blank())
 
 #CO1 primer
   plot_co1 <- ggplot()+
@@ -134,9 +133,14 @@ count_df <- taxdat_processed3%>%
     scale_fill_viridis(discrete=T,option="C")+
     theme(legend.position = "none",
           axis.title.y = element_blank()) 
+  
+  p_lab <- ggplot() + 
+            annotate(geom = "text", x = 1, y = 1, label = "Mean taxon richness", angle = 90) +
+            coord_cartesian(clip = "off")+
+            theme_void()
 
 #combined into one plot 
-  combo_plot = (plot_12s+plot_16s+plot_co1) + plot_layout(nrow=3,guides="collect")  & theme(legend.position = 'bottom')
+  combo_plot = p_lab + {(plot_12s+plot_16s+plot_co1+guide_area()) + plot_layout(nrow=2,guides="collect") & theme(legend.position="right")} + plot_layout(ncol=2,widths=c(0.1,1))
 
 #save plot
-  ggsave("output/featurs_depth_plot.png",combo_plot,width=6,height=12,units="in",dpi=300)
+  ggsave("output/taxonrichness_seqdepth.png",combo_plot,width=7,height=6,units="in",dpi=300)
