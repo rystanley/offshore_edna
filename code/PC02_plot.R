@@ -45,9 +45,10 @@ trawl_plot <- ggplot(plot_data%>%filter(type=="Ecosystem Trawl"),aes(x=PC1,y=PC2
                     text=element_text(family="sans")) +
               theme_bw()
 
-# note the PC2*-1 just inverts the axis so that the clusters are better aligned. Since the data is an ordination, it doesn't matter what orientation the axes are. 
-geom_point(alpha=.9, size=4,col="black") +
-eDNA_plot <- ggplot(plot_data%>%filter(type=="eDNA"),aes(x=PC1,y=PC2*-1,fill=bioclass,shape=bioclass))+ 
+# note the PC2*-1 just inverts the axis so that the clusters are better aligned. Since the data is an ordination, it doesn't matter what orientation the axes
+
+eDNA_plot <- ggplot(plot_data%>%filter(type=="eDNA"),aes(x=PC1*-1,y=PC2*-1,fill=bioclass,shape=bioclass))+ 
+            geom_point(alpha=.9, size=4,col="black") +
             scale_fill_manual(values=fill_cols) + 
             scale_shape_manual(values=c(21:25)) +
             labs(x= "PCoA 1: 9.2%", y="PCoA 2: 8.3%",fill="",shape="",title = "B) eDNA" ) + 
