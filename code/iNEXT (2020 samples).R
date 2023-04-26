@@ -16,32 +16,41 @@
     east.num <- 108
   
   #Richness analysis
-    vert_next <- iNEXT(east_fish, q=0, datatype="incidence_freq", endpoint=east.num, knots = 40, se = TRUE, conf = 0.95,
-                     nboot = 1000)
+    # vert_next <- iNEXT(east_fish, q=0, datatype="incidence_freq", endpoint=east.num, knots = 40, se = TRUE, conf = 0.95,
+    #                  nboot = 1000)
+    # 
+    # invert_next <- iNEXT(east_invert, q=0, datatype="incidence_freq", endpoint=east.num, knots = 40, se = TRUE, conf = 0.95,
+    #                          nboot = 1000)
+    # 
+    # #save interim outputs
+    # save(vert_next,file="output/vert_next.RData")
+    # save(invert_next,file="output/invert_next.RData")
     
-    invert_next <- iNEXT(east_invert, q=0, datatype="incidence_freq", endpoint=east.num, knots = 40, se = TRUE, conf = 0.95,
-                             nboot = 1000)
+    load("output/vert_next.RData") #load the interim outputs so you don't have to re-run the rarefaction analyses each time. 
+    load("output/invert_next.RData")
     
    #Extract plotting data
-    plotdata <- rbind(fortify.iNEXT(vert_next,type=1)%>%mutate(type="Vertebrates"),
-                      fortify.iNEXT(vert_next,type=3)%>%mutate(type="Vertebrates"),
-                      fortify.iNEXT(invert_next,type=1)%>%mutate(type="Invertebrates"),
-                      fortify.iNEXT(invert_next,type=3)%>%mutate(type="Invertebrates"))%>%
-      mutate(var=gsub("fish_","",site),
+    plotdata <- rbind(fortify(vert_next,type=1)%>%mutate(type="vertebrates"),
+                      fortify(vert_next,type=3)%>%mutate(type="vertebrates"),
+                      fortify(invert_next,type=1)%>%mutate(type="invertebrates"),
+                      fortify(invert_next,type=3)%>%mutate(type="invertebrates"))%>%
+      mutate(var=gsub("fish_","",Assemblage),
              var=gsub("_invertebrates","",var),
-             var=ifelse(var == "trawling","Trawling",var),
-             var=factor(var,levels=c("Trawling","12S","16S","CO1","eDNA")),
+             #var=ifelse(var == "trawling","Trawling",var), #keep lower calse
+             var=factor(var,levels=c("trawling","12S","16S","CO1","eDNA")),
              denominator = ifelse(plottype==1,"Number of sampling sites","Sample coverage"))%>%
       arrange(var,type,x)%>%
+      rename(site=Assemblage,method=Method)%>% #iNext updates changed the output names 
       dplyr::select(site,var,type,method,x,y,y.lwr,y.upr,denominator)
     
     #assemble data for the asymptotic diversity estimates
     assym_div <- rbind(vert_next$AsyEst,invert_next$AsyEst)%>%
-                 mutate(type=ifelse(grepl("fish",Site,),"Fish","Invertebrates"),
+                 rename(Site=Assemblage)%>%
+                 mutate(type=ifelse(grepl("fish",Site),"fish","invertebrates"),
                        var=gsub("fish_","",Site),
                        var=gsub("_invertebrates","",var),
-                       var=ifelse(var == "trawling","Trawling",var),
-                       var=factor(var,levels=c("Trawling","12S","16S","CO1","eDNA")))
+                       #var=ifelse(var == "trawling","Trawling",var),
+                       var=factor(var,levels=c("trawling","12S","16S","CO1","eDNA")))
     
     
     #Rarefaction plots
@@ -88,7 +97,7 @@
     
     #just the sample size rarefaction plot
     plotdata <- plotdata%>%
-                mutate(type2 = ifelse(type=="Vertebrates","Fish",type))
+                mutate(type2 = ifelse(type=="vertebrates","fish",type))
     
     p2_solo <- ggplot()+
               geom_ribbon(data=plotdata%>%filter(denominator == "Number of sampling sites"),aes(x=x,ymin=y.lwr,ymax=y.upr,fill=var),alpha=0.5)+
