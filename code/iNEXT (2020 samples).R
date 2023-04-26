@@ -115,7 +115,7 @@
               scale_y_continuous(expand=c(0,0.02))+
               scale_fill_manual(values=plotcols)+ # to increase contrast
               scale_colour_manual(values=plotcols)+
-              labs(x="Number of sampling sites",y="Taxon Richness",fill="",col="")
+              labs(x="Number of sampling sites",y="Taxon richness",fill="",col="")
     
     ggsave("output/richness_sites.png",p2_solo,width=9,height=9,units="in",dpi=600)
     
