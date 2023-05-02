@@ -119,6 +119,29 @@
     
     ggsave("output/richness_sites.png",p2_solo,width=9,height=9,units="in",dpi=600)
     
+    shrink <- 2 #scaling factor to get the text looking right. 
+    
+    fig3_formatted <- ggplot()+
+      geom_ribbon(data=plotdata%>%filter(denominator == "Number of sampling sites"),aes(x=x,ymin=y.lwr,ymax=y.upr,fill=var),alpha=0.5)+
+      geom_line(data=plotdata%>%filter(denominator == "Number of sampling sites"),aes(x=x,y=y,col=var),lty=2)+
+      geom_line(data=filter(plotdata,method!="Extrapolation",denominator == "Number of sampling sites"),aes(x=x,y=y,col=var),lwd=1.05)+
+      geom_point(data=filter(plotdata,method=="Observed",denominator == "Number of sampling sites"),aes(x=x,y=y,fill=var),shape=21,size=4/shrink)+ #change in type to make it clearer.
+      theme_bw()+
+      facet_grid(type2~.,scales="free")+
+      theme(strip.background = element_rect(, colour = "black", fill = "white"),
+            strip.text.x = element_text(colour = "black",size=14/shrink), 
+            strip.text.y = element_text(colour = "black",size=14/shrink),
+            axis.text = element_text(colour = "black",size=12/shrink),
+            axis.title = element_text(colour = "black",size=12/shrink),
+            legend.text = element_text(colour = "black",size=12/2),
+            legend.position="bottom")+
+      scale_y_continuous(expand=c(0,0.02))+
+      scale_fill_manual(values=plotcols)+ # to increase contrast
+      scale_colour_manual(values=plotcols)+
+      labs(x="Number of sampling sites",y="Taxon richness",fill="",col="")
+    
+    ggsave("output/Final formatted/Figure3.png", fig3_formatted,width=85,units="mm",dpi=1200)
+    
     p3 <- ggplot()+
       geom_ribbon(data=plotdata%>%filter(denominator == "Sample coverage"),aes(x=x,ymin=y.lwr,ymax=y.upr,fill=var),alpha=0.5)+
       geom_line(data=plotdata%>%filter(denominator == "Sample coverage"),aes(x=x,y=y,col=var),lty=2,lwd=1.25)+
